@@ -1,0 +1,26 @@
+{
+  "status": "PASSED",
+  "all_passed": true,
+  "feature_count_audited": 65,
+  "name_audit": {
+    "passed": true,
+    "violations_count": 0,
+    "violations": []
+  },
+  "correlation_audit": {
+    "passed": true,
+    "suspicious_count": 0,
+    "suspicious_features": []
+  },
+  "split_audit": {
+    "passed": true,
+    "train_val_overlap_count": 0,
+    "train_test_overlap_count": 0,
+    "val_test_overlap_count": 0,
+    "train_val_overlap_sample": [],
+    "train_test_overlap_sample": [],
+    "val_test_overlap_sample": []
+  },
+  "audit_timestamp": "2026-09-27T23:41:06.349345",
+  "summary": "All leakage checks passed. No prototype recommendation features, no concurrent target indicator leaks, and no split cross-contamination."
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "hazard": "mud_loss",
+    "selected_algorithm": "Random Forest",
+    "validation_pr_auc": 0.0203,
+    "test_pr_auc": 0.0192,
+    "test_roc_auc": 0.7477,
+    "test_precision": 0.0147,
+    "test_recall": 0.0417,
+    "test_f1": 0.0217,
+    "false_positives": 67,
+    "false_negatives": 23,
+    "test_positive_count": 24,
+    "prevalence": 0.009412,
+    "limitations": [
+      "Severe class imbalance: prevalence is 0.94% (24 positive intervals in 2550 test samples).",
+      "Precision at operational threshold is 1.5%; alerts must be interpreted as relative risk indicators rather than deterministic predictions.",
+      "Requires human engineering inspection of active wellbore parameters before adjusting mud weight or hydraulics.",
+      "Advisory decision-support tool only; strictly not certified for autonomous rig actuation."
+    ]
+  },
+  {
+    "hazard": "stuck_pipe",
+    "selected_algorithm": "XGBoost",
+    "validation_pr_auc": 0.0268,
+    "test_pr_auc": 0.0111,
+    "test_roc_auc": 0.7618,
+    "test_precision": 0.0,
+    "test_recall": 0.0,
+    "test_f1": 0.0,
+    "false_positives": 11,
+    "false_negatives": 13,
+    "test_positive_count": 13,
+    "prevalence": 0.005098,
+    "limitations": [
+      "Severe class imbalance: prevalence is 0.51% (13 positive intervals in 2550 test samples).",
+      "Precision at operational threshold is 0.0%; alerts must be interpreted as relative risk indicators rather than deterministic predictions.",
+      "Requires human engineering inspection of active wellbore parameters before adjusting mud weight or hydraulics.",
+      "Advisory decision-support tool only; strictly not certified for autonomous rig actuation."
+    ]
+  },
+  {
+    "hazard": "kick",
+    "selected_algorithm": "CatBoost",
+    "validation_pr_auc": 0.1045,
+    "test_pr_auc": 0.0099,
+    "test_roc_auc": 0.7396,
+    "test_precision": 0.0,
+    "test_recall": 0.0,
+    "test_f1": 0.0,
+    "false_positives": 3,
+    "false_negatives": 4,
+    "test_positive_count": 4,
+    "prevalence": 0.001569,
+    "limitations": [
+      "Severe class imbalance: prevalence is 0.16% (4 positive intervals in 2550 test samples).",
+      "Precision at operational threshold is 0.0%; alerts must be interpreted as relative risk indicators rather than deterministic predictions.",
+      "Requires human engineering inspection of active wellbore parameters before adjusting mud weight or hydraulics.",
+      "Advisory decision-support tool only; strictly not certified for autonomous rig actuation."
+    ]
+  },
+  {
+    "hazard": "overpressure",
+    "selected_algorithm": "Random Forest",
+    "validation_pr_auc": 0.012,
+    "test_pr_auc": 0.0035,
+    "test_roc_auc": 0.6682,
+    "test_precision": 0.0,
+    "test_recall": 0.0,
+    "test_f1": 0.0,
+    "false_positives": 40,
+    "false_negatives": 5,
+    "test_positive_count": 5,
+    "prevalence": 0.001961,
+    "limitations": [
+      "Severe class imbalance: prevalence is 0.20% (5 positive intervals in 2550 test samples).",
+      "Precision at operational threshold is 0.0%; alerts must be interpreted as relative risk indicators rather than deterministic predictions.",
+      "Requires human engineering inspection of active wellbore parameters before adjusting mud weight or hydraulics.",
+      "Advisory decision-support tool only; strictly not certified for autonomous rig actuation.",
+      "Trained on historical 'Formation Pressure Change' labels which include pressure fluctuations; geopressured overpressure vs depletion should be confirmed with drillstem test / formation logs."
+    ]
+  },
+  {
+    "hazard": "torque_spike",
+    "selected_algorithm": "XGBoost",
+    "validation_pr_auc": 0.0095,
+    "test_pr_auc": 0.0146,
+    "test_roc_auc": 0.7514,
+    "test_precision": 0.0,
+    "test_recall": 0.0,
+    "test_f1": 0.0,
+    "false_positives": 54,
+    "false_negatives": 13,
+    "test_positive_count": 13,
+    "prevalence": 0.005098,
+    "limitations": [
+      "Severe class imbalance: prevalence is 0.51% (13 positive intervals in 2550 test samples).",
+      "Precision at operational threshold is 0.0%; alerts must be interpreted as relative risk indicators rather than deterministic predictions.",
+      "Requires human engineering inspection of active wellbore parameters before adjusting mud weight or hydraulics.",
+      "Advisory decision-support tool only; strictly not certified for autonomous rig actuation.",
+      "Trained on historical 'Torque and Drag' logs; captures rotational frictional resistance excursions alongside transient dynamic torque spikes."
+    ]
+  }
+]

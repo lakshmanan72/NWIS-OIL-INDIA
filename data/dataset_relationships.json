@@ -1,0 +1,792 @@
+{
+  "architecture_type": "Hub-and-Spoke Relational Schema",
+  "central_master_hub": "nwis_well_locations_15108_new.csv",
+  "legacy_gis_baseline": "nwis_wells_columns.csv",
+  "summary": "10 datasets natively utilize canonical WELL-XXXXXX identifiers with 100% foreign key referential integrity against the 15,108 master wells. nwis_wells_columns.csv provides the active GIS map baseline with 15,108 records.",
+  "dataset_roles": {
+    "nwis_daily_drilling_parameters_15108.csv": {
+      "role": "transactional",
+      "well_id_column": "well_id",
+      "cardinality_to_master": "1:N (Multiple records per well)",
+      "primary_key": [
+        "drilling_record_id"
+      ]
+    },
+    "nwis_document_metadata_15108.csv": {
+      "role": "document",
+      "well_id_column": "well_id",
+      "cardinality_to_master": "1:N (Multiple records per well)",
+      "primary_key": [
+        "document_id",
+        "source_file",
+        "file_path"
+      ]
+    },
+    "nwis_formation_lithology_15108.csv": {
+      "role": "geological",
+      "well_id_column": "well_id",
+      "cardinality_to_master": "1:N (Multiple records per well)",
+      "primary_key": [
+        "formation_id"
+      ]
+    },
+    "nwis_historical_drilling_events_15108.csv": {
+      "role": "historical",
+      "well_id_column": "well_id",
+      "cardinality_to_master": "1:N (Multiple records per well)",
+      "primary_key": [
+        "event_id",
+        "report_id"
+      ]
+    },
+    "nwis_mud_logging_15108_wells.csv": {
+      "role": "transactional",
+      "well_id_column": "well_id",
+      "cardinality_to_master": "1:N (Multiple records per well)",
+      "primary_key": [
+        "mud_log_id"
+      ]
+    },
+    "nwis_risk_recommendations.csv": {
+      "role": "risk",
+      "well_id_column": "well_id",
+      "cardinality_to_master": "1:N (Multiple records per well)",
+      "primary_key": [
+        "prediction_id"
+      ]
+    },
+    "nwis_spatial_well_relationships_15108.csv": {
+      "role": "spatial",
+      "well_id_column": "source_well_id (primary source), nearby_well_id (target offset)",
+      "cardinality_to_master": "1:N (Multiple records per well)",
+      "primary_key": [
+        "relationship_id"
+      ]
+    },
+    "nwis_well_completion_wcr_15108.csv": {
+      "role": "transactional",
+      "well_id_column": "well_id",
+      "cardinality_to_master": "1:1 (Single record per well)",
+      "primary_key": [
+        "wcr_id",
+        "well_id",
+        "well_name",
+        "wcr_summary"
+      ]
+    },
+    "nwis_well_geology_15108.csv": {
+      "role": "geological",
+      "well_id_column": "well_id",
+      "cardinality_to_master": "1:N (Multiple records per well)",
+      "primary_key": [
+        "geology_id"
+      ]
+    },
+    "nwis_well_locations_15108_new.csv": {
+      "role": "master",
+      "well_id_column": "well_id",
+      "cardinality_to_master": "1:1 (Single record per well)",
+      "primary_key": [
+        "well_id",
+        "well_name"
+      ]
+    },
+    "nwis_wells_columns.csv": {
+      "role": "master",
+      "well_id_column": "id (FID string), gid (numeric identifier), well_name (well code)",
+      "cardinality_to_master": "1:1 (Single record per well)",
+      "primary_key": [
+        "id",
+        "gid"
+      ]
+    }
+  },
+  "well_id_coverage_against_master": {
+    "nwis_daily_drilling_parameters_15108.csv": {
+      "well_id_column": "well_id",
+      "dataset_unique_wells": 1694,
+      "wells_matching_master": 1694,
+      "referential_integrity_pct": 100.0,
+      "master_coverage_pct": 11.21,
+      "orphan_wells_count": 0
+    },
+    "nwis_document_metadata_15108.csv": {
+      "well_id_column": "well_id",
+      "dataset_unique_wells": 8336,
+      "wells_matching_master": 8336,
+      "referential_integrity_pct": 100.0,
+      "master_coverage_pct": 55.18,
+      "orphan_wells_count": 0
+    },
+    "nwis_formation_lithology_15108.csv": {
+      "well_id_column": "well_id",
+      "dataset_unique_wells": 15108,
+      "wells_matching_master": 15108,
+      "referential_integrity_pct": 100.0,
+      "master_coverage_pct": 100.0,
+      "orphan_wells_count": 0
+    },
+    "nwis_historical_drilling_events_15108.csv": {
+      "well_id_column": "well_id",
+      "dataset_unique_wells": 15108,
+      "wells_matching_master": 15108,
+      "referential_integrity_pct": 100.0,
+      "master_coverage_pct": 100.0,
+      "orphan_wells_count": 0
+    },
+    "nwis_mud_logging_15108_wells.csv": {
+      "well_id_column": "well_id",
+      "dataset_unique_wells": 15108,
+      "wells_matching_master": 15108,
+      "referential_integrity_pct": 100.0,
+      "master_coverage_pct": 100.0,
+      "orphan_wells_count": 0
+    },
+    "nwis_risk_recommendations.csv": {
+      "well_id_column": "well_id",
+      "dataset_unique_wells": 6670,
+      "wells_matching_master": 6670,
+      "referential_integrity_pct": 100.0,
+      "master_coverage_pct": 44.15,
+      "orphan_wells_count": 0
+    },
+    "nwis_spatial_well_relationships_15108.csv": {
+      "well_id_column": "source_well_id",
+      "dataset_unique_wells": 8144,
+      "wells_matching_master": 8144,
+      "referential_integrity_pct": 100.0,
+      "master_coverage_pct": 53.91,
+      "orphan_wells_count": 0
+    },
+    "nwis_well_completion_wcr_15108.csv": {
+      "well_id_column": "well_id",
+      "dataset_unique_wells": 15108,
+      "wells_matching_master": 15108,
+      "referential_integrity_pct": 100.0,
+      "master_coverage_pct": 100.0,
+      "orphan_wells_count": 0
+    },
+    "nwis_well_geology_15108.csv": {
+      "well_id_column": "well_id",
+      "dataset_unique_wells": 15108,
+      "wells_matching_master": 15108,
+      "referential_integrity_pct": 100.0,
+      "master_coverage_pct": 100.0,
+      "orphan_wells_count": 0
+    },
+    "nwis_well_locations_15108_new.csv": {
+      "well_id_column": "well_id",
+      "dataset_unique_wells": 15108,
+      "wells_matching_master": 15108,
+      "referential_integrity_pct": 100.0,
+      "master_coverage_pct": 100.0,
+      "orphan_wells_count": 0
+    },
+    "nwis_wells_columns.csv": {
+      "well_id_column": "id",
+      "dataset_unique_wells": 15108,
+      "wells_matching_master": 0,
+      "referential_integrity_pct": 0.0,
+      "master_coverage_pct": 0.0,
+      "orphan_wells_count": 15108
+    }
+  },
+  "pairwise_well_id_overlap": {
+    "nwis_daily_drilling_parameters_15108.csv": {
+      "nwis_daily_drilling_parameters_15108.csv": {
+        "common_wells": 1694,
+        "pct_of_f1": 100.0
+      },
+      "nwis_document_metadata_15108.csv": {
+        "common_wells": 1694,
+        "pct_of_f1": 100.0
+      },
+      "nwis_formation_lithology_15108.csv": {
+        "common_wells": 1694,
+        "pct_of_f1": 100.0
+      },
+      "nwis_historical_drilling_events_15108.csv": {
+        "common_wells": 1694,
+        "pct_of_f1": 100.0
+      },
+      "nwis_mud_logging_15108_wells.csv": {
+        "common_wells": 1694,
+        "pct_of_f1": 100.0
+      },
+      "nwis_risk_recommendations.csv": {
+        "common_wells": 1694,
+        "pct_of_f1": 100.0
+      },
+      "nwis_spatial_well_relationships_15108.csv": {
+        "common_wells": 1694,
+        "pct_of_f1": 100.0
+      },
+      "nwis_well_completion_wcr_15108.csv": {
+        "common_wells": 1694,
+        "pct_of_f1": 100.0
+      },
+      "nwis_well_geology_15108.csv": {
+        "common_wells": 1694,
+        "pct_of_f1": 100.0
+      },
+      "nwis_well_locations_15108_new.csv": {
+        "common_wells": 1694,
+        "pct_of_f1": 100.0
+      },
+      "nwis_wells_columns.csv": {
+        "common_wells": 0,
+        "pct_of_f1": 0.0
+      }
+    },
+    "nwis_document_metadata_15108.csv": {
+      "nwis_daily_drilling_parameters_15108.csv": {
+        "common_wells": 1694,
+        "pct_of_f1": 20.32
+      },
+      "nwis_document_metadata_15108.csv": {
+        "common_wells": 8336,
+        "pct_of_f1": 100.0
+      },
+      "nwis_formation_lithology_15108.csv": {
+        "common_wells": 8336,
+        "pct_of_f1": 100.0
+      },
+      "nwis_historical_drilling_events_15108.csv": {
+        "common_wells": 8336,
+        "pct_of_f1": 100.0
+      },
+      "nwis_mud_logging_15108_wells.csv": {
+        "common_wells": 8336,
+        "pct_of_f1": 100.0
+      },
+      "nwis_risk_recommendations.csv": {
+        "common_wells": 6670,
+        "pct_of_f1": 80.01
+      },
+      "nwis_spatial_well_relationships_15108.csv": {
+        "common_wells": 8144,
+        "pct_of_f1": 97.7
+      },
+      "nwis_well_completion_wcr_15108.csv": {
+        "common_wells": 8336,
+        "pct_of_f1": 100.0
+      },
+      "nwis_well_geology_15108.csv": {
+        "common_wells": 8336,
+        "pct_of_f1": 100.0
+      },
+      "nwis_well_locations_15108_new.csv": {
+        "common_wells": 8336,
+        "pct_of_f1": 100.0
+      },
+      "nwis_wells_columns.csv": {
+        "common_wells": 0,
+        "pct_of_f1": 0.0
+      }
+    },
+    "nwis_formation_lithology_15108.csv": {
+      "nwis_daily_drilling_parameters_15108.csv": {
+        "common_wells": 1694,
+        "pct_of_f1": 11.21
+      },
+      "nwis_document_metadata_15108.csv": {
+        "common_wells": 8336,
+        "pct_of_f1": 55.18
+      },
+      "nwis_formation_lithology_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_historical_drilling_events_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_mud_logging_15108_wells.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_risk_recommendations.csv": {
+        "common_wells": 6670,
+        "pct_of_f1": 44.15
+      },
+      "nwis_spatial_well_relationships_15108.csv": {
+        "common_wells": 8144,
+        "pct_of_f1": 53.91
+      },
+      "nwis_well_completion_wcr_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_well_geology_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_well_locations_15108_new.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_wells_columns.csv": {
+        "common_wells": 0,
+        "pct_of_f1": 0.0
+      }
+    },
+    "nwis_historical_drilling_events_15108.csv": {
+      "nwis_daily_drilling_parameters_15108.csv": {
+        "common_wells": 1694,
+        "pct_of_f1": 11.21
+      },
+      "nwis_document_metadata_15108.csv": {
+        "common_wells": 8336,
+        "pct_of_f1": 55.18
+      },
+      "nwis_formation_lithology_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_historical_drilling_events_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_mud_logging_15108_wells.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_risk_recommendations.csv": {
+        "common_wells": 6670,
+        "pct_of_f1": 44.15
+      },
+      "nwis_spatial_well_relationships_15108.csv": {
+        "common_wells": 8144,
+        "pct_of_f1": 53.91
+      },
+      "nwis_well_completion_wcr_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_well_geology_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_well_locations_15108_new.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_wells_columns.csv": {
+        "common_wells": 0,
+        "pct_of_f1": 0.0
+      }
+    },
+    "nwis_mud_logging_15108_wells.csv": {
+      "nwis_daily_drilling_parameters_15108.csv": {
+        "common_wells": 1694,
+        "pct_of_f1": 11.21
+      },
+      "nwis_document_metadata_15108.csv": {
+        "common_wells": 8336,
+        "pct_of_f1": 55.18
+      },
+      "nwis_formation_lithology_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_historical_drilling_events_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_mud_logging_15108_wells.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_risk_recommendations.csv": {
+        "common_wells": 6670,
+        "pct_of_f1": 44.15
+      },
+      "nwis_spatial_well_relationships_15108.csv": {
+        "common_wells": 8144,
+        "pct_of_f1": 53.91
+      },
+      "nwis_well_completion_wcr_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_well_geology_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_well_locations_15108_new.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_wells_columns.csv": {
+        "common_wells": 0,
+        "pct_of_f1": 0.0
+      }
+    },
+    "nwis_risk_recommendations.csv": {
+      "nwis_daily_drilling_parameters_15108.csv": {
+        "common_wells": 1694,
+        "pct_of_f1": 25.4
+      },
+      "nwis_document_metadata_15108.csv": {
+        "common_wells": 6670,
+        "pct_of_f1": 100.0
+      },
+      "nwis_formation_lithology_15108.csv": {
+        "common_wells": 6670,
+        "pct_of_f1": 100.0
+      },
+      "nwis_historical_drilling_events_15108.csv": {
+        "common_wells": 6670,
+        "pct_of_f1": 100.0
+      },
+      "nwis_mud_logging_15108_wells.csv": {
+        "common_wells": 6670,
+        "pct_of_f1": 100.0
+      },
+      "nwis_risk_recommendations.csv": {
+        "common_wells": 6670,
+        "pct_of_f1": 100.0
+      },
+      "nwis_spatial_well_relationships_15108.csv": {
+        "common_wells": 6670,
+        "pct_of_f1": 100.0
+      },
+      "nwis_well_completion_wcr_15108.csv": {
+        "common_wells": 6670,
+        "pct_of_f1": 100.0
+      },
+      "nwis_well_geology_15108.csv": {
+        "common_wells": 6670,
+        "pct_of_f1": 100.0
+      },
+      "nwis_well_locations_15108_new.csv": {
+        "common_wells": 6670,
+        "pct_of_f1": 100.0
+      },
+      "nwis_wells_columns.csv": {
+        "common_wells": 0,
+        "pct_of_f1": 0.0
+      }
+    },
+    "nwis_spatial_well_relationships_15108.csv": {
+      "nwis_daily_drilling_parameters_15108.csv": {
+        "common_wells": 1694,
+        "pct_of_f1": 20.8
+      },
+      "nwis_document_metadata_15108.csv": {
+        "common_wells": 8144,
+        "pct_of_f1": 100.0
+      },
+      "nwis_formation_lithology_15108.csv": {
+        "common_wells": 8144,
+        "pct_of_f1": 100.0
+      },
+      "nwis_historical_drilling_events_15108.csv": {
+        "common_wells": 8144,
+        "pct_of_f1": 100.0
+      },
+      "nwis_mud_logging_15108_wells.csv": {
+        "common_wells": 8144,
+        "pct_of_f1": 100.0
+      },
+      "nwis_risk_recommendations.csv": {
+        "common_wells": 6670,
+        "pct_of_f1": 81.9
+      },
+      "nwis_spatial_well_relationships_15108.csv": {
+        "common_wells": 8144,
+        "pct_of_f1": 100.0
+      },
+      "nwis_well_completion_wcr_15108.csv": {
+        "common_wells": 8144,
+        "pct_of_f1": 100.0
+      },
+      "nwis_well_geology_15108.csv": {
+        "common_wells": 8144,
+        "pct_of_f1": 100.0
+      },
+      "nwis_well_locations_15108_new.csv": {
+        "common_wells": 8144,
+        "pct_of_f1": 100.0
+      },
+      "nwis_wells_columns.csv": {
+        "common_wells": 0,
+        "pct_of_f1": 0.0
+      }
+    },
+    "nwis_well_completion_wcr_15108.csv": {
+      "nwis_daily_drilling_parameters_15108.csv": {
+        "common_wells": 1694,
+        "pct_of_f1": 11.21
+      },
+      "nwis_document_metadata_15108.csv": {
+        "common_wells": 8336,
+        "pct_of_f1": 55.18
+      },
+      "nwis_formation_lithology_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_historical_drilling_events_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_mud_logging_15108_wells.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_risk_recommendations.csv": {
+        "common_wells": 6670,
+        "pct_of_f1": 44.15
+      },
+      "nwis_spatial_well_relationships_15108.csv": {
+        "common_wells": 8144,
+        "pct_of_f1": 53.91
+      },
+      "nwis_well_completion_wcr_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_well_geology_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_well_locations_15108_new.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_wells_columns.csv": {
+        "common_wells": 0,
+        "pct_of_f1": 0.0
+      }
+    },
+    "nwis_well_geology_15108.csv": {
+      "nwis_daily_drilling_parameters_15108.csv": {
+        "common_wells": 1694,
+        "pct_of_f1": 11.21
+      },
+      "nwis_document_metadata_15108.csv": {
+        "common_wells": 8336,
+        "pct_of_f1": 55.18
+      },
+      "nwis_formation_lithology_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_historical_drilling_events_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_mud_logging_15108_wells.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_risk_recommendations.csv": {
+        "common_wells": 6670,
+        "pct_of_f1": 44.15
+      },
+      "nwis_spatial_well_relationships_15108.csv": {
+        "common_wells": 8144,
+        "pct_of_f1": 53.91
+      },
+      "nwis_well_completion_wcr_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_well_geology_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_well_locations_15108_new.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_wells_columns.csv": {
+        "common_wells": 0,
+        "pct_of_f1": 0.0
+      }
+    },
+    "nwis_well_locations_15108_new.csv": {
+      "nwis_daily_drilling_parameters_15108.csv": {
+        "common_wells": 1694,
+        "pct_of_f1": 11.21
+      },
+      "nwis_document_metadata_15108.csv": {
+        "common_wells": 8336,
+        "pct_of_f1": 55.18
+      },
+      "nwis_formation_lithology_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_historical_drilling_events_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_mud_logging_15108_wells.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_risk_recommendations.csv": {
+        "common_wells": 6670,
+        "pct_of_f1": 44.15
+      },
+      "nwis_spatial_well_relationships_15108.csv": {
+        "common_wells": 8144,
+        "pct_of_f1": 53.91
+      },
+      "nwis_well_completion_wcr_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_well_geology_15108.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_well_locations_15108_new.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      },
+      "nwis_wells_columns.csv": {
+        "common_wells": 0,
+        "pct_of_f1": 0.0
+      }
+    },
+    "nwis_wells_columns.csv": {
+      "nwis_daily_drilling_parameters_15108.csv": {
+        "common_wells": 0,
+        "pct_of_f1": 0.0
+      },
+      "nwis_document_metadata_15108.csv": {
+        "common_wells": 0,
+        "pct_of_f1": 0.0
+      },
+      "nwis_formation_lithology_15108.csv": {
+        "common_wells": 0,
+        "pct_of_f1": 0.0
+      },
+      "nwis_historical_drilling_events_15108.csv": {
+        "common_wells": 0,
+        "pct_of_f1": 0.0
+      },
+      "nwis_mud_logging_15108_wells.csv": {
+        "common_wells": 0,
+        "pct_of_f1": 0.0
+      },
+      "nwis_risk_recommendations.csv": {
+        "common_wells": 0,
+        "pct_of_f1": 0.0
+      },
+      "nwis_spatial_well_relationships_15108.csv": {
+        "common_wells": 0,
+        "pct_of_f1": 0.0
+      },
+      "nwis_well_completion_wcr_15108.csv": {
+        "common_wells": 0,
+        "pct_of_f1": 0.0
+      },
+      "nwis_well_geology_15108.csv": {
+        "common_wells": 0,
+        "pct_of_f1": 0.0
+      },
+      "nwis_well_locations_15108_new.csv": {
+        "common_wells": 0,
+        "pct_of_f1": 0.0
+      },
+      "nwis_wells_columns.csv": {
+        "common_wells": 15108,
+        "pct_of_f1": 100.0
+      }
+    }
+  },
+  "join_specifications": {
+    "well_locations_to_completion": {
+      "parent": "nwis_well_locations_15108_new.csv",
+      "child": "nwis_well_completion_wcr_15108.csv",
+      "parent_key": "well_id",
+      "child_key": "well_id",
+      "cardinality": "1:1",
+      "description": "Each well has exactly one completion report (WCR)."
+    },
+    "well_locations_to_geology": {
+      "parent": "nwis_well_locations_15108_new.csv",
+      "child": "nwis_well_geology_15108.csv",
+      "parent_key": "well_id",
+      "child_key": "well_id",
+      "cardinality": "1:N",
+      "description": "Each well contains multiple depth intervals (interval_no)."
+    },
+    "well_locations_to_formation_lithology": {
+      "parent": "nwis_well_locations_15108_new.csv",
+      "child": "nwis_formation_lithology_15108.csv",
+      "parent_key": "well_id",
+      "child_key": "well_id",
+      "cardinality": "1:N",
+      "description": "Each well contains multiple formation tops/bases from surface to total depth."
+    },
+    "well_locations_to_daily_drilling": {
+      "parent": "nwis_well_locations_15108_new.csv",
+      "child": "nwis_daily_drilling_parameters_15108.csv",
+      "parent_key": "well_id",
+      "child_key": "well_id",
+      "cardinality": "1:N",
+      "description": "Daily operational parameters recorded during drilling phase."
+    },
+    "well_locations_to_mud_logging": {
+      "parent": "nwis_well_locations_15108_new.csv",
+      "child": "nwis_mud_logging_15108_wells.csv",
+      "parent_key": "well_id",
+      "child_key": "well_id",
+      "cardinality": "1:N",
+      "description": "Depth-indexed mud sensor telemetry and cuttings observations across all 15,108 wells."
+    },
+    "well_locations_to_historical_events": {
+      "parent": "nwis_well_locations_15108_new.csv",
+      "child": "nwis_historical_drilling_events_15108.csv",
+      "parent_key": "well_id",
+      "child_key": "well_id",
+      "cardinality": "1:N",
+      "description": "Historical drilling incidents and non-productive time logs across all 15,108 wells."
+    },
+    "well_locations_to_risk_recommendations": {
+      "parent": "nwis_well_locations_15108_new.csv",
+      "child": "nwis_risk_recommendations.csv",
+      "parent_key": "well_id",
+      "child_key": "well_id",
+      "cardinality": "1:N",
+      "description": "Predictive risk forecasts per well depth/formation, referencing similar offset wells."
+    },
+    "well_locations_to_document_metadata": {
+      "parent": "nwis_well_locations_15108_new.csv",
+      "child": "nwis_document_metadata_15108.csv",
+      "parent_key": "well_id",
+      "child_key": "well_id",
+      "cardinality": "1:N",
+      "description": "Archival reports, WCRs, and daily drilling files per well."
+    },
+    "well_locations_to_spatial_relationships": {
+      "parent": "nwis_well_locations_15108_new.csv",
+      "child": "nwis_spatial_well_relationships_15108.csv",
+      "parent_key": "well_id",
+      "child_key": "source_well_id / nearby_well_id",
+      "cardinality": "1:N",
+      "description": "Spatial proximity graph connecting source wells to nearest offset wells."
+    },
+    "risk_recommendations_to_historical_events": {
+      "parent": "nwis_historical_drilling_events_15108.csv",
+      "child": "nwis_risk_recommendations.csv",
+      "parent_key": "event_id",
+      "child_key": "supporting_event_id",
+      "cardinality": "1:N",
+      "description": "Supporting historical incidents that ground each predictive risk recommendation."
+    },
+    "well_locations_to_legacy_gis": {
+      "parent": "nwis_well_locations_15108_new.csv",
+      "child": "nwis_wells_columns.csv",
+      "parent_key": "Row index / 15,108 count alignment",
+      "child_key": "Row index / 15,108 count alignment",
+      "cardinality": "1:1 equivalent layer",
+      "description": "nwis_wells_columns.csv is the active production GIS layer currently powering the Leaflet map."
+    }
+  }
+}

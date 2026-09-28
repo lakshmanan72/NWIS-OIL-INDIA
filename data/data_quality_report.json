@@ -1,0 +1,500 @@
+{
+  "nwis_daily_drilling_parameters_15108.csv": {
+    "dataset_name": "nwis_daily_drilling_parameters_15108.csv",
+    "primary_classification": "transactional",
+    "total_records": 16939,
+    "total_columns": 17,
+    "duplicate_records_count": 0,
+    "duplicate_records_percentage": 0.0,
+    "duplicate_well_ids_assessment": {
+      "well_id_column_analyzed": "well_id",
+      "total_records": 16939,
+      "unique_well_ids": 1694,
+      "duplicate_well_id_count": 15245,
+      "has_duplicate_well_ids": true,
+      "is_one_to_one": false,
+      "cardinality": "1:N (Multiple records per well)"
+    },
+    "missing_values_summary": {
+      "total_missing_values": 0,
+      "total_data_cells": 287963,
+      "missing_percentage_overall": 0.0,
+      "rows_with_missing_values": 0,
+      "rows_with_missing_values_percentage": 0.0
+    },
+    "missing_values_per_column": {},
+    "geographic_coordinate_validity": {
+      "has_coordinates": false,
+      "latitude_column": null,
+      "longitude_column": null,
+      "note": "Non-spatial attribute dataset; links to geospatial coordinates through well_id foreign key"
+    },
+    "primary_key_candidates": [
+      "drilling_record_id"
+    ],
+    "composite_primary_key_candidates": [
+      [
+        "well_id",
+        "record_date"
+      ],
+      [
+        "well_id",
+        "depth_md"
+      ]
+    ],
+    "data_integrity_status": "EXCELLENT - No duplicate records, 100% valid schema and referential integrity"
+  },
+  "nwis_document_metadata_15108.csv": {
+    "dataset_name": "nwis_document_metadata_15108.csv",
+    "primary_classification": "document",
+    "total_records": 18419,
+    "total_columns": 11,
+    "duplicate_records_count": 0,
+    "duplicate_records_percentage": 0.0,
+    "duplicate_well_ids_assessment": {
+      "well_id_column_analyzed": "well_id",
+      "total_records": 18419,
+      "unique_well_ids": 8336,
+      "duplicate_well_id_count": 10083,
+      "has_duplicate_well_ids": true,
+      "is_one_to_one": false,
+      "cardinality": "1:N (Multiple records per well)"
+    },
+    "missing_values_summary": {
+      "total_missing_values": 0,
+      "total_data_cells": 202609,
+      "missing_percentage_overall": 0.0,
+      "rows_with_missing_values": 0,
+      "rows_with_missing_values_percentage": 0.0
+    },
+    "missing_values_per_column": {},
+    "geographic_coordinate_validity": {
+      "has_coordinates": false,
+      "latitude_column": null,
+      "longitude_column": null,
+      "note": "Non-spatial attribute dataset; links to geospatial coordinates through well_id foreign key"
+    },
+    "primary_key_candidates": [
+      "document_id",
+      "source_file",
+      "file_path"
+    ],
+    "composite_primary_key_candidates": [],
+    "data_integrity_status": "EXCELLENT - No duplicate records, 100% valid schema and referential integrity"
+  },
+  "nwis_formation_lithology_15108.csv": {
+    "dataset_name": "nwis_formation_lithology_15108.csv",
+    "primary_classification": "geological",
+    "total_records": 68142,
+    "total_columns": 13,
+    "duplicate_records_count": 0,
+    "duplicate_records_percentage": 0.0,
+    "duplicate_well_ids_assessment": {
+      "well_id_column_analyzed": "well_id",
+      "total_records": 68142,
+      "unique_well_ids": 15108,
+      "duplicate_well_id_count": 53034,
+      "has_duplicate_well_ids": true,
+      "is_one_to_one": false,
+      "cardinality": "1:N (Multiple records per well)"
+    },
+    "missing_values_summary": {
+      "total_missing_values": 0,
+      "total_data_cells": 885846,
+      "missing_percentage_overall": 0.0,
+      "rows_with_missing_values": 0,
+      "rows_with_missing_values_percentage": 0.0
+    },
+    "missing_values_per_column": {},
+    "geographic_coordinate_validity": {
+      "has_coordinates": false,
+      "latitude_column": null,
+      "longitude_column": null,
+      "note": "Non-spatial attribute dataset; links to geospatial coordinates through well_id foreign key"
+    },
+    "primary_key_candidates": [
+      "formation_id"
+    ],
+    "composite_primary_key_candidates": [
+      [
+        "well_id",
+        "depth_from_md"
+      ]
+    ],
+    "data_integrity_status": "EXCELLENT - No duplicate records, 100% valid schema and referential integrity"
+  },
+  "nwis_historical_drilling_events_15108.csv": {
+    "dataset_name": "nwis_historical_drilling_events_15108.csv",
+    "primary_classification": "historical",
+    "total_records": 31444,
+    "total_columns": 15,
+    "duplicate_records_count": 0,
+    "duplicate_records_percentage": 0.0,
+    "duplicate_well_ids_assessment": {
+      "well_id_column_analyzed": "well_id",
+      "total_records": 31444,
+      "unique_well_ids": 15108,
+      "duplicate_well_id_count": 16336,
+      "has_duplicate_well_ids": true,
+      "is_one_to_one": false,
+      "cardinality": "1:N (Multiple records per well)"
+    },
+    "missing_values_summary": {
+      "total_missing_values": 0,
+      "total_data_cells": 471660,
+      "missing_percentage_overall": 0.0,
+      "rows_with_missing_values": 0,
+      "rows_with_missing_values_percentage": 0.0
+    },
+    "missing_values_per_column": {},
+    "geographic_coordinate_validity": {
+      "has_coordinates": false,
+      "latitude_column": null,
+      "longitude_column": null,
+      "note": "Non-spatial attribute dataset; links to geospatial coordinates through well_id foreign key"
+    },
+    "primary_key_candidates": [
+      "event_id",
+      "report_id"
+    ],
+    "composite_primary_key_candidates": [],
+    "data_integrity_status": "EXCELLENT - No duplicate records, 100% valid schema and referential integrity"
+  },
+  "nwis_mud_logging_15108_wells.csv": {
+    "dataset_name": "nwis_mud_logging_15108_wells.csv",
+    "primary_classification": "transactional",
+    "total_records": 453240,
+    "total_columns": 43,
+    "duplicate_records_count": 0,
+    "duplicate_records_percentage": 0.0,
+    "duplicate_well_ids_assessment": {
+      "well_id_column_analyzed": "well_id",
+      "total_records": 453240,
+      "unique_well_ids": 15108,
+      "duplicate_well_id_count": 438132,
+      "has_duplicate_well_ids": true,
+      "is_one_to_one": false,
+      "cardinality": "1:N (Multiple records per well)"
+    },
+    "missing_values_summary": {
+      "total_missing_values": 576740,
+      "total_data_cells": 19489320,
+      "missing_percentage_overall": 2.9593,
+      "rows_with_missing_values": 401760,
+      "rows_with_missing_values_percentage": 88.64
+    },
+    "missing_values_per_column": {
+      "fluorescence": {
+        "missing_count": 214012,
+        "missing_percentage": 47.22,
+        "domain_explanation": "Expected domain behavior: UV fluorescence only occurs when cuttings contain hydrocarbon shows (oil/gas)."
+      },
+      "mud_loss_severity": {
+        "missing_count": 362728,
+        "missing_percentage": 80.03,
+        "domain_explanation": "Expected domain behavior: Severity is only populated when mud loss is actively detected (loss_indicator == True)."
+      }
+    },
+    "geographic_coordinate_validity": {
+      "has_coordinates": false,
+      "latitude_column": null,
+      "longitude_column": null,
+      "note": "Non-spatial attribute dataset; links to geospatial coordinates through well_id foreign key"
+    },
+    "primary_key_candidates": [
+      "mud_log_id"
+    ],
+    "composite_primary_key_candidates": [
+      [
+        "well_id",
+        "depth_m"
+      ]
+    ],
+    "data_integrity_status": "EXCELLENT - No duplicate records, 100% valid schema and referential integrity"
+  },
+  "nwis_risk_recommendations.csv": {
+    "dataset_name": "nwis_risk_recommendations.csv",
+    "primary_classification": "risk",
+    "total_records": 18499,
+    "total_columns": 12,
+    "duplicate_records_count": 0,
+    "duplicate_records_percentage": 0.0,
+    "duplicate_well_ids_assessment": {
+      "well_id_column_analyzed": "well_id",
+      "total_records": 18499,
+      "unique_well_ids": 6670,
+      "duplicate_well_id_count": 11829,
+      "has_duplicate_well_ids": true,
+      "is_one_to_one": false,
+      "cardinality": "1:N (Multiple records per well)"
+    },
+    "missing_values_summary": {
+      "total_missing_values": 0,
+      "total_data_cells": 221988,
+      "missing_percentage_overall": 0.0,
+      "rows_with_missing_values": 0,
+      "rows_with_missing_values_percentage": 0.0
+    },
+    "missing_values_per_column": {},
+    "geographic_coordinate_validity": {
+      "has_coordinates": false,
+      "latitude_column": null,
+      "longitude_column": null,
+      "note": "Non-spatial attribute dataset; links to geospatial coordinates through well_id foreign key"
+    },
+    "primary_key_candidates": [
+      "prediction_id"
+    ],
+    "composite_primary_key_candidates": [],
+    "data_integrity_status": "EXCELLENT - No duplicate records, 100% valid schema and referential integrity"
+  },
+  "nwis_spatial_well_relationships_15108.csv": {
+    "dataset_name": "nwis_spatial_well_relationships_15108.csv",
+    "primary_classification": "spatial",
+    "total_records": 40719,
+    "total_columns": 8,
+    "duplicate_records_count": 0,
+    "duplicate_records_percentage": 0.0,
+    "duplicate_well_ids_assessment": {
+      "well_id_column_analyzed": "source_well_id",
+      "total_records": 40719,
+      "unique_well_ids": 8144,
+      "duplicate_well_id_count": 32575,
+      "has_duplicate_well_ids": true,
+      "is_one_to_one": false,
+      "cardinality": "1:N (Multiple records per well)"
+    },
+    "missing_values_summary": {
+      "total_missing_values": 0,
+      "total_data_cells": 325752,
+      "missing_percentage_overall": 0.0,
+      "rows_with_missing_values": 0,
+      "rows_with_missing_values_percentage": 0.0
+    },
+    "missing_values_per_column": {},
+    "geographic_coordinate_validity": {
+      "has_coordinates": false,
+      "latitude_column": null,
+      "longitude_column": null,
+      "note": "Non-spatial attribute dataset; links to geospatial coordinates through well_id foreign key"
+    },
+    "primary_key_candidates": [
+      "relationship_id"
+    ],
+    "composite_primary_key_candidates": [
+      [
+        "source_well_id",
+        "nearby_well_id"
+      ]
+    ],
+    "data_integrity_status": "EXCELLENT - No duplicate records, 100% valid schema and referential integrity"
+  },
+  "nwis_well_completion_wcr_15108.csv": {
+    "dataset_name": "nwis_well_completion_wcr_15108.csv",
+    "primary_classification": "transactional",
+    "total_records": 15108,
+    "total_columns": 54,
+    "duplicate_records_count": 0,
+    "duplicate_records_percentage": 0.0,
+    "duplicate_well_ids_assessment": {
+      "well_id_column_analyzed": "well_id",
+      "total_records": 15108,
+      "unique_well_ids": 15108,
+      "duplicate_well_id_count": 0,
+      "has_duplicate_well_ids": false,
+      "is_one_to_one": true,
+      "cardinality": "1:1 (Single record per well)"
+    },
+    "missing_values_summary": {
+      "total_missing_values": 24859,
+      "total_data_cells": 815832,
+      "missing_percentage_overall": 3.0471,
+      "rows_with_missing_values": 13962,
+      "rows_with_missing_values_percentage": 92.41
+    },
+    "missing_values_per_column": {
+      "completion_problems": {
+        "missing_count": 10897,
+        "missing_percentage": 72.13,
+        "domain_explanation": "Expected domain behavior: Field is empty when drilling and completion proceeded without recorded anomalies."
+      },
+      "workover_type": {
+        "missing_count": 13962,
+        "missing_percentage": 92.41,
+        "domain_explanation": "Expected domain behavior: Workover type is only applicable when workover_required is True."
+      }
+    },
+    "geographic_coordinate_validity": {
+      "has_coordinates": false,
+      "latitude_column": null,
+      "longitude_column": null,
+      "note": "Non-spatial attribute dataset; links to geospatial coordinates through well_id foreign key"
+    },
+    "primary_key_candidates": [
+      "wcr_id",
+      "well_id",
+      "well_name",
+      "wcr_summary"
+    ],
+    "composite_primary_key_candidates": [],
+    "data_integrity_status": "EXCELLENT - No duplicate records, 100% valid schema and referential integrity"
+  },
+  "nwis_well_geology_15108.csv": {
+    "dataset_name": "nwis_well_geology_15108.csv",
+    "primary_classification": "geological",
+    "total_records": 67794,
+    "total_columns": 19,
+    "duplicate_records_count": 0,
+    "duplicate_records_percentage": 0.0,
+    "duplicate_well_ids_assessment": {
+      "well_id_column_analyzed": "well_id",
+      "total_records": 67794,
+      "unique_well_ids": 15108,
+      "duplicate_well_id_count": 52686,
+      "has_duplicate_well_ids": true,
+      "is_one_to_one": false,
+      "cardinality": "1:N (Multiple records per well)"
+    },
+    "missing_values_summary": {
+      "total_missing_values": 30465,
+      "total_data_cells": 1288086,
+      "missing_percentage_overall": 2.3651,
+      "rows_with_missing_values": 30465,
+      "rows_with_missing_values_percentage": 44.94
+    },
+    "missing_values_per_column": {
+      "hydrocarbon_show": {
+        "missing_count": 30465,
+        "missing_percentage": 44.94,
+        "domain_explanation": "Expected domain behavior: Unproductive or barren intervals do not indicate hydrocarbon shows."
+      }
+    },
+    "geographic_coordinate_validity": {
+      "has_coordinates": false,
+      "latitude_column": null,
+      "longitude_column": null,
+      "note": "Non-spatial attribute dataset; links to geospatial coordinates through well_id foreign key"
+    },
+    "primary_key_candidates": [
+      "geology_id"
+    ],
+    "composite_primary_key_candidates": [
+      [
+        "well_id",
+        "interval_no"
+      ]
+    ],
+    "data_integrity_status": "EXCELLENT - No duplicate records, 100% valid schema and referential integrity"
+  },
+  "nwis_well_locations_15108_new.csv": {
+    "dataset_name": "nwis_well_locations_15108_new.csv",
+    "primary_classification": "master",
+    "total_records": 15108,
+    "total_columns": 14,
+    "duplicate_records_count": 0,
+    "duplicate_records_percentage": 0.0,
+    "duplicate_well_ids_assessment": {
+      "well_id_column_analyzed": "well_id",
+      "total_records": 15108,
+      "unique_well_ids": 15108,
+      "duplicate_well_id_count": 0,
+      "has_duplicate_well_ids": false,
+      "is_one_to_one": true,
+      "cardinality": "1:1 (Single record per well)"
+    },
+    "missing_values_summary": {
+      "total_missing_values": 944,
+      "total_data_cells": 211512,
+      "missing_percentage_overall": 0.4463,
+      "rows_with_missing_values": 944,
+      "rows_with_missing_values_percentage": 6.25
+    },
+    "missing_values_per_column": {
+      "completion_date": {
+        "missing_count": 944,
+        "missing_percentage": 6.25,
+        "domain_explanation": "Expected domain behavior: 944 wells are actively drilling, suspended, or exploratory wells without recorded completion dates."
+      }
+    },
+    "geographic_coordinate_validity": {
+      "has_coordinates": true,
+      "latitude_column": "latitude",
+      "longitude_column": "longitude",
+      "total_rows": 15108,
+      "valid_coordinate_rows": 15108,
+      "invalid_coordinate_rows": 0,
+      "coordinate_validity_percentage": 100.0,
+      "null_latitude_count": 0,
+      "null_longitude_count": 0,
+      "min_latitude": 9.776728,
+      "max_latitude": 28.94296,
+      "min_longitude": 68.769033,
+      "max_longitude": 95.819201,
+      "coordinate_system": "WGS 84 (EPSG:4326)",
+      "geographic_region": "India (Onshore & Offshore basins)",
+      "bounding_box_valid": true
+    },
+    "primary_key_candidates": [
+      "well_id",
+      "well_name"
+    ],
+    "composite_primary_key_candidates": [],
+    "data_integrity_status": "EXCELLENT - No duplicate records, 100% valid schema and referential integrity"
+  },
+  "nwis_wells_columns.csv": {
+    "dataset_name": "nwis_wells_columns.csv",
+    "primary_classification": "master",
+    "total_records": 15108,
+    "total_columns": 10,
+    "duplicate_records_count": 0,
+    "duplicate_records_percentage": 0.0,
+    "duplicate_well_ids_assessment": {
+      "well_id_column_analyzed": "id",
+      "total_records": 15108,
+      "unique_well_ids": 15108,
+      "duplicate_well_id_count": 0,
+      "has_duplicate_well_ids": false,
+      "is_one_to_one": true,
+      "cardinality": "1:1 (Single record per well)"
+    },
+    "missing_values_summary": {
+      "total_missing_values": 0,
+      "total_data_cells": 151080,
+      "missing_percentage_overall": 0.0,
+      "rows_with_missing_values": 0,
+      "rows_with_missing_values_percentage": 0.0
+    },
+    "missing_values_per_column": {},
+    "geographic_coordinate_validity": {
+      "has_coordinates": true,
+      "latitude_column": "latitude",
+      "longitude_column": "longitude",
+      "total_rows": 15108,
+      "valid_coordinate_rows": 15108,
+      "invalid_coordinate_rows": 0,
+      "coordinate_validity_percentage": 100.0,
+      "null_latitude_count": 0,
+      "null_longitude_count": 0,
+      "min_latitude": 6.6653,
+      "max_latitude": 34.1181,
+      "min_longitude": 66.8414,
+      "max_longitude": 95.3768,
+      "coordinate_system": "WGS 84 (EPSG:4326)",
+      "geographic_region": "India (Onshore & Offshore basins)",
+      "bounding_box_valid": true
+    },
+    "primary_key_candidates": [
+      "id",
+      "gid"
+    ],
+    "composite_primary_key_candidates": [],
+    "data_integrity_status": "EXCELLENT - No duplicate records, 100% valid schema and referential integrity"
+  },
+  "_summary": {
+    "total_datasets": 11,
+    "total_records": 760520,
+    "verification_status": "VERIFIED_ACCURATE",
+    "verified_direct_sum": 760520,
+    "prior_narrative_discrepancy_note": "Corrected textual arithmetic typo (697,063 -> 760,520). All 11 CSV files sum exactly to 760,520 rows."
+  }
+}

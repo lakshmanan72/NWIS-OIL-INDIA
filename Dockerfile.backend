@@ -1,0 +1,35 @@
+# ============================================================
+# NWIS Backend Dockerfile (Production Container)
+# ============================================================
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install system dependencies (for psycopg2 / spatial libs)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    build-essential \
+    libpq-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install python dependencies
+COPY backend/requirements.txt /app/backend/requirements.txt
+RUN pip install --no-cache-dir -r backend/requirements.txt \
+    && pip install --no-cache-dir pyjwt passlib sqlalchemy psycopg2-binary pypdf pandas numpy scikit-learn shap catboost
+
+# Copy application and dataset files
+COPY backend /app/backend
+COPY data /app/data
+COPY models /app/models
+
+# Set environment
+ENV PYTHONPATH=/app
+ENV ENVIRONMENT=production
+ENV DATA_BACKEND=postgres
+
+EXPOSE 8000
+
+HEALTHCHECK --interval=15s --timeout=5s --retries=3 \
+    CMD curl -f http://127.0.0.1:8000/health || exit 1
+
+CMD ["python", "-m", "uvicorn", "backend.app.main:app", "--host", "0.0.0.0", "--port", "8000"]

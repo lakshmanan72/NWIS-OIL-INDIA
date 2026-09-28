@@ -1,0 +1,296 @@
+{
+  "validation_timestamp": "2026-09-27 08:19:23 UTC",
+  "elapsed_seconds": 16.99,
+  "metrics": {
+    "total_baseline_wells": 15108,
+    "canonical_ids_found": 15108,
+    "repository_success": 15108,
+    "repository_failures": 0,
+    "map_markers": 15108,
+    "missing_map_markers": 0,
+    "duplicate_canonical_ids": 0,
+    "invalid_canonical_ids": 0,
+    "api_samples_tested": 203,
+    "api_200": 200,
+    "api_404": 0,
+    "api_other_errors": 0,
+    "total_markers_in_system": 15139
+  },
+  "special_target_checks": {
+    "Baseline First Well": {
+      "query": "WELL-000001",
+      "http_status": 200,
+      "resolved_well_id": "WELL-000001",
+      "well_name": "RAJASTHAN-WELL-00001",
+      "operator": "Indian Oil Corporation",
+      "basin": "Rajasthan Basin"
+    },
+    "Prompt Reference Well": {
+      "query": "WELL-000050",
+      "http_status": 200,
+      "resolved_well_id": "WELL-000050",
+      "well_name": "RAJASTHAN-WELL-00050",
+      "operator": "Indian Oil Corporation",
+      "basin": "Rajasthan Basin"
+    },
+    "Baseline Final Well": {
+      "query": "WELL-015108",
+      "http_status": 200,
+      "resolved_well_id": "WELL-015108",
+      "well_name": "CBM-RANIGANJ-WELL-15108",
+      "operator": "ONGC",
+      "basin": "Bengal Basin"
+    },
+    "Prompt Observed Well Name": {
+      "query": "JHIRNA-1",
+      "http_status": 200,
+      "resolved_well_id": "WELL-012111",
+      "well_name": "BARMER-WELL-12111",
+      "operator": "HPCL",
+      "basin": "Barmer Basin"
+    },
+    "JHIRNA-1 Source ID": {
+      "query": "438479b5_193d56910e1_4649",
+      "http_status": 200,
+      "resolved_well_id": "WELL-012111",
+      "well_name": "BARMER-WELL-12111",
+      "operator": "HPCL",
+      "basin": "Barmer Basin"
+    },
+    "JHIRNA-1 Legacy Feature ID": {
+      "query": "wells_all_public.fid--438479b5_193d56910e1_4649",
+      "http_status": 200,
+      "resolved_well_id": "WELL-012111",
+      "well_name": "BARMER-WELL-12111",
+      "operator": "HPCL",
+      "basin": "Barmer Basin"
+    },
+    "JHIRNA-1 Canonical Well ID": {
+      "query": "WELL-012111",
+      "http_status": 200,
+      "resolved_well_id": "WELL-012111",
+      "well_name": "BARMER-WELL-12111",
+      "operator": "HPCL",
+      "basin": "Barmer Basin"
+    }
+  },
+  "dynamic_wcr_wells": [
+    {
+      "well_id": "WELL-015109",
+      "well_name": "TEST-EXPLORATION-99",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015110",
+      "well_name": "DISCOVERY-c0a967dc",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015111",
+      "well_name": "DISCOVERY-c4b2704e",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015112",
+      "well_name": "WILDCAT-2a8ec2",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015113",
+      "well_name": "MAP-TEST-83bd1c",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015114",
+      "well_name": "WILDCAT-3586d5",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015115",
+      "well_name": "MAP-TEST-29d253",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015116",
+      "well_name": "DISCOVERY-047477b1",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015117",
+      "well_name": "WILDCAT-c7fbcf",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015118",
+      "well_name": "MAP-TEST-1ab5f6",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015119",
+      "well_name": "DISCOVERY-9b557cc9",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015120",
+      "well_name": "WILDCAT-1a6726",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015121",
+      "well_name": "MAP-TEST-a65c37",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015122",
+      "well_name": "DISCOVERY-bb87cebf",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015123",
+      "well_name": "WILDCAT-592364",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015124",
+      "well_name": "MAP-TEST-782280",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015125",
+      "well_name": "DISCOVERY-a9405c3f",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015126",
+      "well_name": "WILDCAT-57e977",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015127",
+      "well_name": "MAP-TEST-420239",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015128",
+      "well_name": "DISCOVERY-a92db4ed",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015129",
+      "well_name": "WILDCAT-c34fb1",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015130",
+      "well_name": "MAP-TEST-e223b1",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015131",
+      "well_name": "DISCOVERY-675b08ed",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015132",
+      "well_name": "WILDCAT-77ed62",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015133",
+      "well_name": "MAP-TEST-5e142d",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015134",
+      "well_name": "DISCOVERY-181aacdf",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015135",
+      "well_name": "WILDCAT-433526",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015136",
+      "well_name": "MAP-TEST-7c6864",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015137",
+      "well_name": "DISCOVERY-93651cd3",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015138",
+      "well_name": "WILDCAT-47e400",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    },
+    {
+      "well_id": "WELL-015139",
+      "well_name": "MAP-TEST-14ee35",
+      "repo_lookup": true,
+      "api_status": 200,
+      "map_marker": true
+    }
+  ]
+}

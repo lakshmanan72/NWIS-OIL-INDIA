@@ -1,0 +1,75 @@
+version: '3.8'
+
+services:
+  postgres-postgis:
+    image: postgis/postgis:16-3.4
+    container_name: nwis-postgres-postgis
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-nwis}
+      POSTGRES_USER: ${POSTGRES_USER:-nwis_admin}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-nwis_secure_password_2026}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./database/schema:/docker-entrypoint-initdb.d:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-nwis_admin} -d ${POSTGRES_DB:-nwis}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: nwis-backend
+    environment:
+      ENVIRONMENT: ${ENVIRONMENT:-production}
+      DATA_BACKEND: ${DATA_BACKEND:-postgres}
+      DATABASE_URL: postgresql://${POSTGRES_USER:-nwis_admin}:${POSTGRES_PASSWORD:-nwis_secure_password_2026}@postgres-postgis:5432/${POSTGRES_DB:-nwis}
+      POSTGIS_ENABLED: ${POSTGIS_ENABLED:-true}
+      TELEMETRY_STORAGE: ${TELEMETRY_STORAGE:-postgres}
+      ALERT_STORAGE: ${ALERT_STORAGE:-postgres}
+      VECTOR_BACKEND: ${VECTOR_BACKEND:-local}
+      JWT_SECRET: ${JWT_SECRET:-nwis_default_secret_key_change_in_production_2026}
+      JWT_EXPIRE_MINUTES: ${JWT_EXPIRE_MINUTES:-480}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      STRUCTURED_LOGGING: "true"
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+    volumes:
+      - uploads_data:/app/data/uploads
+    depends_on:
+      postgres-postgis:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://127.0.0.1:8000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: nwis-frontend
+    ports:
+      - "${FRONTEND_PORT:-80}:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1/nginx-health"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+
+volumes:
+  pgdata:
+    driver: local
+  uploads_data:
+    driver: local

@@ -1,0 +1,15 @@
+{
+  "test_contamination": false,
+  "threshold_test_contamination": false,
+  "preprocessing_test_contamination": false,
+  "categorical_encoder_test_contamination": false,
+  "group_split_verified": true,
+  "status": "PASS",
+  "details": [
+    "Resolved Phase 3 test-set model selection contamination by refactoring the training pipeline to rank and lock winning algorithms strictly on the 15% validation split prior to held-out test evaluation.",
+    "Threshold optimization is conducted strictly on validation set via F1 grid search across [0.15, 0.85]; test labels and probabilities are never exposed during threshold search.",
+    "Categorical encoder (OrdinalEncoder) is fitted strictly on 70% train split wells (1,185 wells) with handle_unknown='use_encoded_value' (-1); zero categorical leakage to validation/test sets.",
+    "Numeric imputation medians are computed strictly on 70% train split wells and saved to models/nwis_train_imputation_medians.joblib.",
+    "Grouped splitting verified strictly disjoint by well_id: 1,185 train wells, 254 validation wells, and 255 held-out test wells with zero intersection."
+  ]
+}

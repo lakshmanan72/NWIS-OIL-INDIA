@@ -1,0 +1,1954 @@
+{
+  "REV-8DF27385": {
+    "review_id": "REV-8DF27385",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T00:59:17.058634+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-0151E73B": {
+    "review_id": "REV-0151E73B",
+    "document_id": "DOC-B2DC1656",
+    "reviewer": "Lead Engineer",
+    "action": "APPROVE_ALL_HIGH",
+    "timestamp": "2026-09-27T00:59:18.930078+00:00",
+    "comments": "Batch-approved 3 entities and 1 events (threshold >= 0.85)."
+  },
+  "REV-7DE99375": {
+    "review_id": "REV-7DE99375",
+    "document_id": "DOC-B2DC1656",
+    "reviewer": "Supervising Drilling Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T00:59:18.993335+00:00",
+    "comments": "All technical parameters verified against operational log."
+  },
+  "REV-DDEF64A8": {
+    "review_id": "REV-DDEF64A8",
+    "document_id": "DOC-0B84E3F2",
+    "reviewer": "QA Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T00:59:19.190208+00:00",
+    "comments": "Fails source verification checklist."
+  },
+  "REV-2378E0DF": {
+    "review_id": "REV-2378E0DF",
+    "document_id": "DOC-E5A359B4",
+    "reviewer": "Subsurface Data Manager",
+    "action": "LINK_CANONICAL_WELL",
+    "timestamp": "2026-09-27T00:59:19.361953+00:00",
+    "comments": "Linked to canonical well WELL-000050 (RAJASTHAN-WELL-00050)."
+  },
+  "REV-7B09EB61": {
+    "review_id": "REV-7B09EB61",
+    "document_id": "DOC-0B84E3F2",
+    "reviewer": "QA Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T01:02:25.747559+00:00",
+    "comments": "Fails source verification checklist."
+  },
+  "REV-DADDD869": {
+    "review_id": "REV-DADDD869",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T01:02:25.830165+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-3A0E3E80": {
+    "review_id": "REV-3A0E3E80",
+    "document_id": "DOC-7E95ACD7",
+    "reviewer": "Lead Engineer",
+    "action": "APPROVE_ALL_HIGH",
+    "timestamp": "2026-09-27T01:04:27.693146+00:00",
+    "comments": "Batch-approved 3 entities and 1 events (threshold >= 0.85)."
+  },
+  "REV-CD4508FB": {
+    "review_id": "REV-CD4508FB",
+    "document_id": "DOC-7E95ACD7",
+    "reviewer": "Supervising Drilling Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T01:04:27.758327+00:00",
+    "comments": "All technical parameters verified against operational log."
+  },
+  "REV-BA96B155": {
+    "review_id": "REV-BA96B155",
+    "document_id": "DOC-CB93C532",
+    "reviewer": "QA Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T01:04:27.982423+00:00",
+    "comments": "Fails source verification checklist."
+  },
+  "REV-6C924CB1": {
+    "review_id": "REV-6C924CB1",
+    "document_id": "DOC-C3027BBC",
+    "reviewer": "Subsurface Data Manager",
+    "action": "LINK_CANONICAL_WELL",
+    "timestamp": "2026-09-27T01:04:28.190839+00:00",
+    "comments": "Linked to canonical well WELL-000050 (RAJASTHAN-WELL-00050)."
+  },
+  "REV-03512758": {
+    "review_id": "REV-03512758",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T01:04:28.407154+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-4DB1D014": {
+    "review_id": "REV-4DB1D014",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T01:05:18.810712+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-7382B7A1": {
+    "review_id": "REV-7382B7A1",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T01:05:48.028797+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-7C8F2CF7": {
+    "review_id": "REV-7C8F2CF7",
+    "document_id": "DOC-AEF4B8F9",
+    "reviewer": "Lead Engineer",
+    "action": "APPROVE_ALL_HIGH",
+    "timestamp": "2026-09-27T01:05:58.896545+00:00",
+    "comments": "Batch-approved 3 entities and 1 events (threshold >= 0.85)."
+  },
+  "REV-17BB4E28": {
+    "review_id": "REV-17BB4E28",
+    "document_id": "DOC-AEF4B8F9",
+    "reviewer": "Supervising Drilling Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T01:05:58.965346+00:00",
+    "comments": "All technical parameters verified against operational log."
+  },
+  "REV-4FF8F853": {
+    "review_id": "REV-4FF8F853",
+    "document_id": "DOC-3901E694",
+    "reviewer": "QA Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T01:05:59.165607+00:00",
+    "comments": "Fails source verification checklist."
+  },
+  "REV-13508840": {
+    "review_id": "REV-13508840",
+    "document_id": "DOC-1BB27269",
+    "reviewer": "Subsurface Data Manager",
+    "action": "LINK_CANONICAL_WELL",
+    "timestamp": "2026-09-27T01:05:59.362973+00:00",
+    "comments": "Linked to canonical well WELL-000050 (RAJASTHAN-WELL-00050)."
+  },
+  "REV-DBF04C11": {
+    "review_id": "REV-DBF04C11",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T01:13:11.188935+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-6113957E": {
+    "review_id": "REV-6113957E",
+    "document_id": "DOC-0356D130",
+    "reviewer": "Lead Engineer",
+    "action": "APPROVE_ALL_HIGH",
+    "timestamp": "2026-09-27T01:13:23.473288+00:00",
+    "comments": "Batch-approved 3 entities and 1 events (threshold >= 0.85)."
+  },
+  "REV-22EAD6B0": {
+    "review_id": "REV-22EAD6B0",
+    "document_id": "DOC-0356D130",
+    "reviewer": "Supervising Drilling Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T01:13:23.537043+00:00",
+    "comments": "All technical parameters verified against operational log."
+  },
+  "REV-8DBE2B38": {
+    "review_id": "REV-8DBE2B38",
+    "document_id": "DOC-C3FBC1FC",
+    "reviewer": "QA Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T01:13:23.753266+00:00",
+    "comments": "Fails source verification checklist."
+  },
+  "REV-F579E3C8": {
+    "review_id": "REV-F579E3C8",
+    "document_id": "DOC-52831494",
+    "reviewer": "Subsurface Data Manager",
+    "action": "LINK_CANONICAL_WELL",
+    "timestamp": "2026-09-27T01:13:23.970512+00:00",
+    "comments": "Linked to canonical well WELL-000050 (RAJASTHAN-WELL-00050)."
+  },
+  "REV-126A5918": {
+    "review_id": "REV-126A5918",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T01:30:27.320890+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-5CC8105F": {
+    "review_id": "REV-5CC8105F",
+    "document_id": "DOC-4418B6FD",
+    "reviewer": "Lead Engineer",
+    "action": "APPROVE_ALL_HIGH",
+    "timestamp": "2026-09-27T01:30:57.604927+00:00",
+    "comments": "Batch-approved 3 entities and 1 events (threshold >= 0.85)."
+  },
+  "REV-80B38738": {
+    "review_id": "REV-80B38738",
+    "document_id": "DOC-4418B6FD",
+    "reviewer": "Supervising Drilling Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T01:30:57.677473+00:00",
+    "comments": "All technical parameters verified against operational log."
+  },
+  "REV-A060E309": {
+    "review_id": "REV-A060E309",
+    "document_id": "DOC-A732D74E",
+    "reviewer": "QA Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T01:30:57.908377+00:00",
+    "comments": "Fails source verification checklist."
+  },
+  "REV-D7D5DE12": {
+    "review_id": "REV-D7D5DE12",
+    "document_id": "DOC-0ED5DF2A",
+    "reviewer": "Subsurface Data Manager",
+    "action": "LINK_CANONICAL_WELL",
+    "timestamp": "2026-09-27T01:30:58.128556+00:00",
+    "comments": "Linked to canonical well WELL-000050 (RAJASTHAN-WELL-00050)."
+  },
+  "REV-9E713A5E": {
+    "review_id": "REV-9E713A5E",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T01:33:27.423596+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-727B4492": {
+    "review_id": "REV-727B4492",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T01:34:41.063227+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-B76BF36F": {
+    "review_id": "REV-B76BF36F",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T01:35:44.094183+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-64943AA3": {
+    "review_id": "REV-64943AA3",
+    "document_id": "DOC-B99BD298",
+    "reviewer": "Lead Engineer",
+    "action": "APPROVE_ALL_HIGH",
+    "timestamp": "2026-09-27T01:36:13.856011+00:00",
+    "comments": "Batch-approved 3 entities and 1 events (threshold >= 0.85)."
+  },
+  "REV-874262A7": {
+    "review_id": "REV-874262A7",
+    "document_id": "DOC-B99BD298",
+    "reviewer": "Supervising Drilling Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T01:36:13.927162+00:00",
+    "comments": "All technical parameters verified against operational log."
+  },
+  "REV-387112C2": {
+    "review_id": "REV-387112C2",
+    "document_id": "DOC-3BFA6C51",
+    "reviewer": "QA Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T01:36:14.151529+00:00",
+    "comments": "Fails source verification checklist."
+  },
+  "REV-C8EAC987": {
+    "review_id": "REV-C8EAC987",
+    "document_id": "DOC-3CD2841F",
+    "reviewer": "Subsurface Data Manager",
+    "action": "LINK_CANONICAL_WELL",
+    "timestamp": "2026-09-27T01:36:14.364656+00:00",
+    "comments": "Linked to canonical well WELL-000050 (RAJASTHAN-WELL-00050)."
+  },
+  "REV-1A47C5AA": {
+    "review_id": "REV-1A47C5AA",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T01:42:46.250288+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-84E8B3E7": {
+    "review_id": "REV-84E8B3E7",
+    "document_id": "DOC-654F77C8",
+    "reviewer": "Lead Engineer",
+    "action": "APPROVE_ALL_HIGH",
+    "timestamp": "2026-09-27T01:43:16.002292+00:00",
+    "comments": "Batch-approved 3 entities and 1 events (threshold >= 0.85)."
+  },
+  "REV-FB421195": {
+    "review_id": "REV-FB421195",
+    "document_id": "DOC-654F77C8",
+    "reviewer": "Supervising Drilling Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T01:43:16.072062+00:00",
+    "comments": "All technical parameters verified against operational log."
+  },
+  "REV-4DBE4678": {
+    "review_id": "REV-4DBE4678",
+    "document_id": "DOC-F8DE1758",
+    "reviewer": "QA Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T01:43:16.288643+00:00",
+    "comments": "Fails source verification checklist."
+  },
+  "REV-C86030EF": {
+    "review_id": "REV-C86030EF",
+    "document_id": "DOC-52303291",
+    "reviewer": "Subsurface Data Manager",
+    "action": "LINK_CANONICAL_WELL",
+    "timestamp": "2026-09-27T01:43:16.506103+00:00",
+    "comments": "Linked to canonical well WELL-000050 (RAJASTHAN-WELL-00050)."
+  },
+  "REV-67251103": {
+    "review_id": "REV-67251103",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T02:06:53.027715+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-FB555169": {
+    "review_id": "REV-FB555169",
+    "document_id": "DOC-34C94A5C",
+    "reviewer": "Lead Engineer",
+    "action": "APPROVE_ALL_HIGH",
+    "timestamp": "2026-09-27T02:07:22.807886+00:00",
+    "comments": "Batch-approved 3 entities and 1 events (threshold >= 0.85)."
+  },
+  "REV-8A73D6DA": {
+    "review_id": "REV-8A73D6DA",
+    "document_id": "DOC-34C94A5C",
+    "reviewer": "Supervising Drilling Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T02:07:22.877080+00:00",
+    "comments": "All technical parameters verified against operational log."
+  },
+  "REV-B9C4F6E8": {
+    "review_id": "REV-B9C4F6E8",
+    "document_id": "DOC-3635A680",
+    "reviewer": "QA Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T02:07:23.095294+00:00",
+    "comments": "Fails source verification checklist."
+  },
+  "REV-A5E9959D": {
+    "review_id": "REV-A5E9959D",
+    "document_id": "DOC-ABC08AC7",
+    "reviewer": "Subsurface Data Manager",
+    "action": "LINK_CANONICAL_WELL",
+    "timestamp": "2026-09-27T02:07:23.341692+00:00",
+    "comments": "Linked to canonical well WELL-000050 (RAJASTHAN-WELL-00050)."
+  },
+  "REV-AE4A0240": {
+    "review_id": "REV-AE4A0240",
+    "document_id": "DOC-BE6A4F2F",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T02:07:23.613063+00:00",
+    "comments": "Created canonical well WELL-015110 (DISCOVERY-c0a967dc) from report."
+  },
+  "REV-116B209B": {
+    "review_id": "REV-116B209B",
+    "document_id": "DOC-14288C78",
+    "reviewer": "Lead Engineer",
+    "action": "APPROVE_ALL_HIGH",
+    "timestamp": "2026-09-27T02:09:56.350571+00:00",
+    "comments": "Batch-approved 3 entities and 1 events (threshold >= 0.85)."
+  },
+  "REV-38D887AB": {
+    "review_id": "REV-38D887AB",
+    "document_id": "DOC-14288C78",
+    "reviewer": "Supervising Drilling Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T02:09:56.425774+00:00",
+    "comments": "All technical parameters verified against operational log."
+  },
+  "REV-750E57EB": {
+    "review_id": "REV-750E57EB",
+    "document_id": "DOC-0BA78D67",
+    "reviewer": "QA Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T02:09:56.666667+00:00",
+    "comments": "Fails source verification checklist."
+  },
+  "REV-20417F48": {
+    "review_id": "REV-20417F48",
+    "document_id": "DOC-515E9CA4",
+    "reviewer": "Subsurface Data Manager",
+    "action": "LINK_CANONICAL_WELL",
+    "timestamp": "2026-09-27T02:09:56.929267+00:00",
+    "comments": "Linked to canonical well WELL-000050 (RAJASTHAN-WELL-00050)."
+  },
+  "REV-DE42E4B7": {
+    "review_id": "REV-DE42E4B7",
+    "document_id": "DOC-404712D1",
+    "reviewer": "Lead Engineer",
+    "action": "APPROVE_ALL_HIGH",
+    "timestamp": "2026-09-27T02:10:57.418995+00:00",
+    "comments": "Batch-approved 3 entities and 1 events (threshold >= 0.85)."
+  },
+  "REV-0DCCA882": {
+    "review_id": "REV-0DCCA882",
+    "document_id": "DOC-404712D1",
+    "reviewer": "Supervising Drilling Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T02:10:57.487980+00:00",
+    "comments": "All technical parameters verified against operational log."
+  },
+  "REV-22C7A43D": {
+    "review_id": "REV-22C7A43D",
+    "document_id": "DOC-DA6202B8",
+    "reviewer": "QA Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T02:10:57.706487+00:00",
+    "comments": "Fails source verification checklist."
+  },
+  "REV-8C46B2A3": {
+    "review_id": "REV-8C46B2A3",
+    "document_id": "DOC-9D10EA87",
+    "reviewer": "Subsurface Data Manager",
+    "action": "LINK_CANONICAL_WELL",
+    "timestamp": "2026-09-27T02:10:57.993344+00:00",
+    "comments": "Linked to canonical well WELL-000050 (RAJASTHAN-WELL-00050)."
+  },
+  "REV-1D1A2376": {
+    "review_id": "REV-1D1A2376",
+    "document_id": "DOC-2466A173",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T02:10:58.306566+00:00",
+    "comments": "Created canonical well WELL-015111 (DISCOVERY-c4b2704e) from report."
+  },
+  "REV-D6F67914": {
+    "review_id": "REV-D6F67914",
+    "document_id": "DOC-38A2FA14",
+    "reviewer": "Data Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T02:17:52.517062+00:00",
+    "comments": "Quality or verification criteria not met."
+  },
+  "REV-8C2FE2B6": {
+    "review_id": "REV-8C2FE2B6",
+    "document_id": "DOC-97F953B1",
+    "reviewer": "Chief Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T02:17:52.722317+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-E1DCDF80": {
+    "review_id": "REV-E1DCDF80",
+    "document_id": "DOC-27F8C27E",
+    "reviewer": "Data Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T02:20:15.447434+00:00",
+    "comments": "Data corrupted"
+  },
+  "REV-2B2468F0": {
+    "review_id": "REV-2B2468F0",
+    "document_id": "DOC-8779B207",
+    "reviewer": "Chief Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T02:20:15.669650+00:00",
+    "comments": "Approved for institutional memory"
+  },
+  "REV-C9917169": {
+    "review_id": "REV-C9917169",
+    "document_id": "DOC-B17C3A3C",
+    "reviewer": "Lead Drilling Engineer",
+    "action": "CLASSIFICATION_OVERRIDE",
+    "timestamp": "2026-09-27T02:22:14.307054+00:00",
+    "comments": "Classification overridden to WCR by engineer."
+  },
+  "REV-1B679B7B": {
+    "review_id": "REV-1B679B7B",
+    "document_id": "DOC-B943D88C",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T02:22:15.286201+00:00",
+    "comments": "Created canonical well WELL-015112 (WILDCAT-2a8ec2) from report."
+  },
+  "REV-D723D678": {
+    "review_id": "REV-D723D678",
+    "document_id": "DOC-7BE8E30C",
+    "reviewer": "Data Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T02:22:16.794492+00:00",
+    "comments": "Data corrupted"
+  },
+  "REV-041340DA": {
+    "review_id": "REV-041340DA",
+    "document_id": "DOC-14A43063",
+    "reviewer": "Chief Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T02:22:17.008307+00:00",
+    "comments": "Approved for institutional memory"
+  },
+  "REV-E1FCF6D9": {
+    "review_id": "REV-E1FCF6D9",
+    "document_id": "DOC-9E8187A2",
+    "reviewer": "Lead GIS Engineer",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T02:22:34.467880+00:00",
+    "comments": "Created canonical well WELL-015113 (MAP-TEST-83bd1c) from report."
+  },
+  "REV-A281E4E2": {
+    "review_id": "REV-A281E4E2",
+    "document_id": "DOC-BD3E1E00",
+    "reviewer": "Lead Drilling Engineer",
+    "action": "CLASSIFICATION_OVERRIDE",
+    "timestamp": "2026-09-27T02:26:31.695331+00:00",
+    "comments": "Classification overridden to WCR by engineer."
+  },
+  "REV-50095412": {
+    "review_id": "REV-50095412",
+    "document_id": "DOC-44E87C18",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T02:26:32.630594+00:00",
+    "comments": "Created canonical well WELL-015114 (WILDCAT-3586d5) from report."
+  },
+  "REV-95A2306B": {
+    "review_id": "REV-95A2306B",
+    "document_id": "DOC-6040D471",
+    "reviewer": "Data Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T02:26:33.247956+00:00",
+    "comments": "Data corrupted"
+  },
+  "REV-02C379C4": {
+    "review_id": "REV-02C379C4",
+    "document_id": "DOC-F55195DA",
+    "reviewer": "Chief Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T02:26:33.457173+00:00",
+    "comments": "Approved for institutional memory"
+  },
+  "REV-E8C1AE34": {
+    "review_id": "REV-E8C1AE34",
+    "document_id": "DOC-7D0479A2",
+    "reviewer": "Lead GIS Engineer",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T02:26:51.272522+00:00",
+    "comments": "Created canonical well WELL-015115 (MAP-TEST-29d253) from report."
+  },
+  "REV-FFD5E14F": {
+    "review_id": "REV-FFD5E14F",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T02:27:35.183379+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-A90A5841": {
+    "review_id": "REV-A90A5841",
+    "document_id": "DOC-86B46891",
+    "reviewer": "Lead Engineer",
+    "action": "APPROVE_ALL_HIGH",
+    "timestamp": "2026-09-27T02:28:04.516617+00:00",
+    "comments": "Batch-approved 3 entities and 1 events (threshold >= 0.85)."
+  },
+  "REV-8B82CB38": {
+    "review_id": "REV-8B82CB38",
+    "document_id": "DOC-86B46891",
+    "reviewer": "Supervising Drilling Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T02:28:04.596758+00:00",
+    "comments": "All technical parameters verified against operational log."
+  },
+  "REV-D419411A": {
+    "review_id": "REV-D419411A",
+    "document_id": "DOC-516AAF5A",
+    "reviewer": "QA Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T02:28:04.846234+00:00",
+    "comments": "Fails source verification checklist."
+  },
+  "REV-A174DE98": {
+    "review_id": "REV-A174DE98",
+    "document_id": "DOC-F245B984",
+    "reviewer": "Subsurface Data Manager",
+    "action": "LINK_CANONICAL_WELL",
+    "timestamp": "2026-09-27T02:28:05.145700+00:00",
+    "comments": "Linked to canonical well WELL-000050 (RAJASTHAN-WELL-00050)."
+  },
+  "REV-D3655501": {
+    "review_id": "REV-D3655501",
+    "document_id": "DOC-FC46432A",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T02:28:05.434202+00:00",
+    "comments": "Created canonical well WELL-015116 (DISCOVERY-047477b1) from report."
+  },
+  "REV-3B8BE4DB": {
+    "review_id": "REV-3B8BE4DB",
+    "document_id": "DOC-A0881D7F",
+    "reviewer": "Lead Drilling Engineer",
+    "action": "CLASSIFICATION_OVERRIDE",
+    "timestamp": "2026-09-27T02:29:03.047942+00:00",
+    "comments": "Classification overridden to WCR by engineer."
+  },
+  "REV-3156DE86": {
+    "review_id": "REV-3156DE86",
+    "document_id": "DOC-48E09DD9",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T02:29:04.039391+00:00",
+    "comments": "Created canonical well WELL-015117 (WILDCAT-c7fbcf) from report."
+  },
+  "REV-306D7B50": {
+    "review_id": "REV-306D7B50",
+    "document_id": "DOC-A534AB75",
+    "reviewer": "Data Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T02:29:04.711786+00:00",
+    "comments": "Data corrupted"
+  },
+  "REV-1300F52E": {
+    "review_id": "REV-1300F52E",
+    "document_id": "DOC-9786B83C",
+    "reviewer": "Chief Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T02:29:04.952506+00:00",
+    "comments": "Approved for institutional memory"
+  },
+  "REV-31C08F6C": {
+    "review_id": "REV-31C08F6C",
+    "document_id": "DOC-75FA85C0",
+    "reviewer": "Lead GIS Engineer",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T02:29:11.833355+00:00",
+    "comments": "Created canonical well WELL-015118 (MAP-TEST-1ab5f6) from report."
+  },
+  "REV-0FEA17BA": {
+    "review_id": "REV-0FEA17BA",
+    "document_id": "DOC-26435E6F",
+    "reviewer": "Chief Drilling Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T02:36:41.271069+00:00",
+    "comments": "Verified against rig telemetry and physical records. Formally approved."
+  },
+  "REV-A05F819D": {
+    "review_id": "REV-A05F819D",
+    "document_id": "DOC-D69A6830",
+    "reviewer": "Chief Drilling Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T02:43:16.252269+00:00",
+    "comments": "Verified against rig telemetry and physical records. Formally approved."
+  },
+  "REV-401B4419": {
+    "review_id": "REV-401B4419",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T02:44:08.555777+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-5A56172C": {
+    "review_id": "REV-5A56172C",
+    "document_id": "DOC-420FAA80",
+    "reviewer": "Lead Engineer",
+    "action": "APPROVE_ALL_HIGH",
+    "timestamp": "2026-09-27T02:44:36.033528+00:00",
+    "comments": "Batch-approved 3 entities and 1 events (threshold >= 0.85)."
+  },
+  "REV-1D6D82BD": {
+    "review_id": "REV-1D6D82BD",
+    "document_id": "DOC-420FAA80",
+    "reviewer": "Supervising Drilling Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T02:44:36.125217+00:00",
+    "comments": "All technical parameters verified against operational log."
+  },
+  "REV-A990A213": {
+    "review_id": "REV-A990A213",
+    "document_id": "DOC-973FCB80",
+    "reviewer": "QA Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T02:44:36.402872+00:00",
+    "comments": "Fails source verification checklist."
+  },
+  "REV-73AF1E29": {
+    "review_id": "REV-73AF1E29",
+    "document_id": "DOC-14E42E24",
+    "reviewer": "Subsurface Data Manager",
+    "action": "LINK_CANONICAL_WELL",
+    "timestamp": "2026-09-27T02:44:36.739208+00:00",
+    "comments": "Linked to canonical well WELL-000050 (RAJASTHAN-WELL-00050)."
+  },
+  "REV-ECABD983": {
+    "review_id": "REV-ECABD983",
+    "document_id": "DOC-98F1A276",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T02:44:37.032757+00:00",
+    "comments": "Created canonical well WELL-015119 (DISCOVERY-9b557cc9) from report."
+  },
+  "REV-55F81F63": {
+    "review_id": "REV-55F81F63",
+    "document_id": "DOC-2745B693",
+    "reviewer": "Lead Drilling Engineer",
+    "action": "CLASSIFICATION_OVERRIDE",
+    "timestamp": "2026-09-27T02:45:33.246058+00:00",
+    "comments": "Classification overridden to WCR by engineer."
+  },
+  "REV-9FB9984C": {
+    "review_id": "REV-9FB9984C",
+    "document_id": "DOC-590D0909",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T02:45:34.211492+00:00",
+    "comments": "Created canonical well WELL-015120 (WILDCAT-1a6726) from report."
+  },
+  "REV-40663AED": {
+    "review_id": "REV-40663AED",
+    "document_id": "DOC-89635D1B",
+    "reviewer": "Data Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T02:45:34.851048+00:00",
+    "comments": "Data corrupted"
+  },
+  "REV-3A8DB775": {
+    "review_id": "REV-3A8DB775",
+    "document_id": "DOC-C8AB877A",
+    "reviewer": "Chief Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T02:45:35.043256+00:00",
+    "comments": "Approved for institutional memory"
+  },
+  "REV-91A7A025": {
+    "review_id": "REV-91A7A025",
+    "document_id": "DOC-83780674",
+    "reviewer": "Lead GIS Engineer",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T02:45:41.536212+00:00",
+    "comments": "Created canonical well WELL-015121 (MAP-TEST-a65c37) from report."
+  },
+  "REV-652E96FB": {
+    "review_id": "REV-652E96FB",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T03:32:42.172758+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-4DD4C1BC": {
+    "review_id": "REV-4DD4C1BC",
+    "document_id": "DOC-CCC5DBE9",
+    "reviewer": "Lead Engineer",
+    "action": "APPROVE_ALL_HIGH",
+    "timestamp": "2026-09-27T03:33:08.958352+00:00",
+    "comments": "Batch-approved 3 entities and 1 events (threshold >= 0.85)."
+  },
+  "REV-22058C7A": {
+    "review_id": "REV-22058C7A",
+    "document_id": "DOC-CCC5DBE9",
+    "reviewer": "Supervising Drilling Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T03:33:09.088102+00:00",
+    "comments": "All technical parameters verified against operational log."
+  },
+  "REV-3C8F76C1": {
+    "review_id": "REV-3C8F76C1",
+    "document_id": "DOC-D3E579B9",
+    "reviewer": "QA Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T03:33:09.348937+00:00",
+    "comments": "Fails source verification checklist."
+  },
+  "REV-AD792D3C": {
+    "review_id": "REV-AD792D3C",
+    "document_id": "DOC-21287927",
+    "reviewer": "Subsurface Data Manager",
+    "action": "LINK_CANONICAL_WELL",
+    "timestamp": "2026-09-27T03:33:09.672230+00:00",
+    "comments": "Linked to canonical well WELL-000050 (RAJASTHAN-WELL-00050)."
+  },
+  "REV-F77D7B54": {
+    "review_id": "REV-F77D7B54",
+    "document_id": "DOC-65328EF9",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T03:33:10.001755+00:00",
+    "comments": "Created canonical well WELL-015122 (DISCOVERY-bb87cebf) from report."
+  },
+  "REV-B54E0F50": {
+    "review_id": "REV-B54E0F50",
+    "document_id": "DOC-5037B556",
+    "reviewer": "Lead Drilling Engineer",
+    "action": "CLASSIFICATION_OVERRIDE",
+    "timestamp": "2026-09-27T03:34:05.223757+00:00",
+    "comments": "Classification overridden to WCR by engineer."
+  },
+  "REV-ECD456BB": {
+    "review_id": "REV-ECD456BB",
+    "document_id": "DOC-25E36758",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T03:34:06.359171+00:00",
+    "comments": "Created canonical well WELL-015123 (WILDCAT-592364) from report."
+  },
+  "REV-DDB09B6E": {
+    "review_id": "REV-DDB09B6E",
+    "document_id": "DOC-3F44A655",
+    "reviewer": "Data Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T03:34:07.199273+00:00",
+    "comments": "Data corrupted"
+  },
+  "REV-48A6FEB4": {
+    "review_id": "REV-48A6FEB4",
+    "document_id": "DOC-EFEDBC4C",
+    "reviewer": "Chief Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T03:34:07.442269+00:00",
+    "comments": "Approved for institutional memory"
+  },
+  "REV-ECDFB8CA": {
+    "review_id": "REV-ECDFB8CA",
+    "document_id": "DOC-AB9C0916",
+    "reviewer": "Lead GIS Engineer",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T03:34:14.435100+00:00",
+    "comments": "Created canonical well WELL-015124 (MAP-TEST-782280) from report."
+  },
+  "REV-DC6A87D7": {
+    "review_id": "REV-DC6A87D7",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T03:40:18.204566+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-33F1E631": {
+    "review_id": "REV-33F1E631",
+    "document_id": "DOC-AB12C43C",
+    "reviewer": "Lead Engineer",
+    "action": "APPROVE_ALL_HIGH",
+    "timestamp": "2026-09-27T03:40:45.120250+00:00",
+    "comments": "Batch-approved 3 entities and 1 events (threshold >= 0.85)."
+  },
+  "REV-A516FAE2": {
+    "review_id": "REV-A516FAE2",
+    "document_id": "DOC-AB12C43C",
+    "reviewer": "Supervising Drilling Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T03:40:45.239512+00:00",
+    "comments": "All technical parameters verified against operational log."
+  },
+  "REV-2BC42156": {
+    "review_id": "REV-2BC42156",
+    "document_id": "DOC-C66C7E53",
+    "reviewer": "QA Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T03:40:45.470632+00:00",
+    "comments": "Fails source verification checklist."
+  },
+  "REV-41D94C9B": {
+    "review_id": "REV-41D94C9B",
+    "document_id": "DOC-E17C0B1D",
+    "reviewer": "Subsurface Data Manager",
+    "action": "LINK_CANONICAL_WELL",
+    "timestamp": "2026-09-27T03:40:45.803788+00:00",
+    "comments": "Linked to canonical well WELL-000050 (RAJASTHAN-WELL-00050)."
+  },
+  "REV-64A0B8D5": {
+    "review_id": "REV-64A0B8D5",
+    "document_id": "DOC-0547619E",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T03:40:46.099964+00:00",
+    "comments": "Created canonical well WELL-015125 (DISCOVERY-a9405c3f) from report."
+  },
+  "REV-C14CF4A9": {
+    "review_id": "REV-C14CF4A9",
+    "document_id": "DOC-8DDAFD82",
+    "reviewer": "Lead Drilling Engineer",
+    "action": "CLASSIFICATION_OVERRIDE",
+    "timestamp": "2026-09-27T03:42:27.164946+00:00",
+    "comments": "Classification overridden to WCR by engineer."
+  },
+  "REV-6D146C55": {
+    "review_id": "REV-6D146C55",
+    "document_id": "DOC-02D83B01",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T03:42:28.339609+00:00",
+    "comments": "Created canonical well WELL-015126 (WILDCAT-57e977) from report."
+  },
+  "REV-09B21F70": {
+    "review_id": "REV-09B21F70",
+    "document_id": "DOC-6EF1CB12",
+    "reviewer": "Data Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T03:42:29.136906+00:00",
+    "comments": "Data corrupted"
+  },
+  "REV-165F9CFB": {
+    "review_id": "REV-165F9CFB",
+    "document_id": "DOC-00D79DA0",
+    "reviewer": "Chief Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T03:42:29.385824+00:00",
+    "comments": "Approved for institutional memory"
+  },
+  "REV-22B2AD61": {
+    "review_id": "REV-22B2AD61",
+    "document_id": "DOC-6FCA1746",
+    "reviewer": "Lead GIS Engineer",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T03:42:36.684066+00:00",
+    "comments": "Created canonical well WELL-015127 (MAP-TEST-420239) from report."
+  },
+  "REV-277A3511": {
+    "review_id": "REV-277A3511",
+    "document_id": "DOC-91483E5F",
+    "reviewer": "Chief Drilling Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T03:45:39.220504+00:00",
+    "comments": "Verified against rig telemetry and physical records. Formally approved."
+  },
+  "REV-B5F75FF5": {
+    "review_id": "REV-B5F75FF5",
+    "document_id": "DOC-C61A56D9",
+    "reviewer": "Chief Drilling Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T03:49:27.986024+00:00",
+    "comments": "Verified against rig telemetry and physical records. Formally approved."
+  },
+  "REV-D3B4D16A": {
+    "review_id": "REV-D3B4D16A",
+    "document_id": "DOC-5D8473C5",
+    "reviewer": "Chief Drilling Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T03:53:59.467901+00:00",
+    "comments": "Verified against rig telemetry and physical records. Formally approved."
+  },
+  "REV-1BE248AA": {
+    "review_id": "REV-1BE248AA",
+    "document_id": "DOC-1B2DA14B",
+    "reviewer": "Chief Drilling Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T04:28:48.871651+00:00",
+    "comments": "Verified against rig telemetry and physical records. Formally approved."
+  },
+  "REV-E5B0C8CA": {
+    "review_id": "REV-E5B0C8CA",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T04:30:05.773621+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-F1B6DB53": {
+    "review_id": "REV-F1B6DB53",
+    "document_id": "DOC-255822DB",
+    "reviewer": "Lead Engineer",
+    "action": "APPROVE_ALL_HIGH",
+    "timestamp": "2026-09-27T04:30:29.732651+00:00",
+    "comments": "Batch-approved 3 entities and 1 events (threshold >= 0.85)."
+  },
+  "REV-54F4204C": {
+    "review_id": "REV-54F4204C",
+    "document_id": "DOC-255822DB",
+    "reviewer": "Supervising Drilling Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T04:30:29.852163+00:00",
+    "comments": "All technical parameters verified against operational log."
+  },
+  "REV-8EADF046": {
+    "review_id": "REV-8EADF046",
+    "document_id": "DOC-8F64BCCA",
+    "reviewer": "QA Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T04:30:30.092428+00:00",
+    "comments": "Fails source verification checklist."
+  },
+  "REV-81C81BFF": {
+    "review_id": "REV-81C81BFF",
+    "document_id": "DOC-34EF745C",
+    "reviewer": "Subsurface Data Manager",
+    "action": "LINK_CANONICAL_WELL",
+    "timestamp": "2026-09-27T04:30:30.487842+00:00",
+    "comments": "Linked to canonical well WELL-000050 (RAJASTHAN-WELL-00050)."
+  },
+  "REV-0543FB28": {
+    "review_id": "REV-0543FB28",
+    "document_id": "DOC-CF63531B",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T04:30:30.766553+00:00",
+    "comments": "Created canonical well WELL-015128 (DISCOVERY-a92db4ed) from report."
+  },
+  "REV-B026A7E6": {
+    "review_id": "REV-B026A7E6",
+    "document_id": "DOC-1A0BB1F3",
+    "reviewer": "Lead Drilling Engineer",
+    "action": "CLASSIFICATION_OVERRIDE",
+    "timestamp": "2026-09-27T04:31:29.303951+00:00",
+    "comments": "Classification overridden to WCR by engineer."
+  },
+  "REV-86811F9F": {
+    "review_id": "REV-86811F9F",
+    "document_id": "DOC-DDC114B9",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T04:31:30.446436+00:00",
+    "comments": "Created canonical well WELL-015129 (WILDCAT-c34fb1) from report."
+  },
+  "REV-E0466A8C": {
+    "review_id": "REV-E0466A8C",
+    "document_id": "DOC-5B6022A5",
+    "reviewer": "Data Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T04:31:31.203112+00:00",
+    "comments": "Data corrupted"
+  },
+  "REV-59B65BB8": {
+    "review_id": "REV-59B65BB8",
+    "document_id": "DOC-D0498690",
+    "reviewer": "Chief Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T04:31:31.452092+00:00",
+    "comments": "Approved for institutional memory"
+  },
+  "REV-76323458": {
+    "review_id": "REV-76323458",
+    "document_id": "DOC-E6D94CFE",
+    "reviewer": "Lead GIS Engineer",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T04:31:37.211194+00:00",
+    "comments": "Created canonical well WELL-015130 (MAP-TEST-e223b1) from report."
+  },
+  "REV-2B4FB56D": {
+    "review_id": "REV-2B4FB56D",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T04:46:16.073725+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-012560D3": {
+    "review_id": "REV-012560D3",
+    "document_id": "DOC-38F684F9",
+    "reviewer": "Lead Engineer",
+    "action": "APPROVE_ALL_HIGH",
+    "timestamp": "2026-09-27T04:46:39.048147+00:00",
+    "comments": "Batch-approved 3 entities and 1 events (threshold >= 0.85)."
+  },
+  "REV-80823C18": {
+    "review_id": "REV-80823C18",
+    "document_id": "DOC-38F684F9",
+    "reviewer": "Supervising Drilling Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T04:46:39.139779+00:00",
+    "comments": "All technical parameters verified against operational log."
+  },
+  "REV-B4EC9280": {
+    "review_id": "REV-B4EC9280",
+    "document_id": "DOC-1D6ED0CF",
+    "reviewer": "QA Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T04:46:39.359252+00:00",
+    "comments": "Fails source verification checklist."
+  },
+  "REV-4948A41C": {
+    "review_id": "REV-4948A41C",
+    "document_id": "DOC-5F39E809",
+    "reviewer": "Subsurface Data Manager",
+    "action": "LINK_CANONICAL_WELL",
+    "timestamp": "2026-09-27T04:46:39.674772+00:00",
+    "comments": "Linked to canonical well WELL-000050 (RAJASTHAN-WELL-00050)."
+  },
+  "REV-4B09175F": {
+    "review_id": "REV-4B09175F",
+    "document_id": "DOC-1C44C2BF",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T04:46:39.952305+00:00",
+    "comments": "Created canonical well WELL-015131 (DISCOVERY-675b08ed) from report."
+  },
+  "REV-ACADED05": {
+    "review_id": "REV-ACADED05",
+    "document_id": "DOC-A94A4D5A",
+    "reviewer": "Lead Drilling Engineer",
+    "action": "CLASSIFICATION_OVERRIDE",
+    "timestamp": "2026-09-27T04:47:36.617398+00:00",
+    "comments": "Classification overridden to WCR by engineer."
+  },
+  "REV-6BDDEF8A": {
+    "review_id": "REV-6BDDEF8A",
+    "document_id": "DOC-40D0F63C",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T04:47:37.620326+00:00",
+    "comments": "Created canonical well WELL-015132 (WILDCAT-77ed62) from report."
+  },
+  "REV-B321177E": {
+    "review_id": "REV-B321177E",
+    "document_id": "DOC-BF4C4583",
+    "reviewer": "Data Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T04:47:38.383709+00:00",
+    "comments": "Data corrupted"
+  },
+  "REV-519E3E55": {
+    "review_id": "REV-519E3E55",
+    "document_id": "DOC-5B45E858",
+    "reviewer": "Chief Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T04:47:38.606143+00:00",
+    "comments": "Approved for institutional memory"
+  },
+  "REV-8520B27C": {
+    "review_id": "REV-8520B27C",
+    "document_id": "DOC-BDBA7CAF",
+    "reviewer": "Lead GIS Engineer",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T04:47:44.211638+00:00",
+    "comments": "Created canonical well WELL-015133 (MAP-TEST-5e142d) from report."
+  },
+  "REV-4924C802": {
+    "review_id": "REV-4924C802",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T06:10:53.818378+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-F1D82BFF": {
+    "review_id": "REV-F1D82BFF",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T06:12:53.619698+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-750A7C89": {
+    "review_id": "REV-750A7C89",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T06:53:27.025831+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-E220DC1E": {
+    "review_id": "REV-E220DC1E",
+    "document_id": "DOC-388270B0",
+    "reviewer": "Lead Engineer",
+    "action": "APPROVE_ALL_HIGH",
+    "timestamp": "2026-09-27T06:53:56.823663+00:00",
+    "comments": "Batch-approved 3 entities and 1 events (threshold >= 0.85)."
+  },
+  "REV-76B56FCF": {
+    "review_id": "REV-76B56FCF",
+    "document_id": "DOC-388270B0",
+    "reviewer": "Supervising Drilling Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T06:53:56.976418+00:00",
+    "comments": "All technical parameters verified against operational log."
+  },
+  "REV-64C69F6D": {
+    "review_id": "REV-64C69F6D",
+    "document_id": "DOC-9A3ED9EB",
+    "reviewer": "QA Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T06:53:57.241905+00:00",
+    "comments": "Fails source verification checklist."
+  },
+  "REV-48F35551": {
+    "review_id": "REV-48F35551",
+    "document_id": "DOC-C0896C00",
+    "reviewer": "Subsurface Data Manager",
+    "action": "LINK_CANONICAL_WELL",
+    "timestamp": "2026-09-27T06:53:57.521829+00:00",
+    "comments": "Linked to canonical well WELL-000050 (RAJASTHAN-WELL-00050)."
+  },
+  "REV-CE1A0B53": {
+    "review_id": "REV-CE1A0B53",
+    "document_id": "DOC-E83CC523",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T06:53:57.824756+00:00",
+    "comments": "Created canonical well WELL-015134 (DISCOVERY-181aacdf) from report."
+  },
+  "REV-C964CE2F": {
+    "review_id": "REV-C964CE2F",
+    "document_id": "DOC-48EC62D3",
+    "reviewer": "Lead Drilling Engineer",
+    "action": "CLASSIFICATION_OVERRIDE",
+    "timestamp": "2026-09-27T06:55:03.778356+00:00",
+    "comments": "Classification overridden to WCR by engineer."
+  },
+  "REV-55AFD725": {
+    "review_id": "REV-55AFD725",
+    "document_id": "DOC-D58B9F87",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T06:55:05.291472+00:00",
+    "comments": "Created canonical well WELL-015135 (WILDCAT-433526) from report."
+  },
+  "REV-1B6C97B7": {
+    "review_id": "REV-1B6C97B7",
+    "document_id": "DOC-31B60306",
+    "reviewer": "Data Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T06:55:06.354022+00:00",
+    "comments": "Data corrupted"
+  },
+  "REV-6AB16378": {
+    "review_id": "REV-6AB16378",
+    "document_id": "DOC-A63044F7",
+    "reviewer": "Chief Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T06:55:06.744640+00:00",
+    "comments": "Approved for institutional memory"
+  },
+  "REV-8B73947F": {
+    "review_id": "REV-8B73947F",
+    "document_id": "DOC-70B08454",
+    "reviewer": "Lead GIS Engineer",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T06:55:15.957857+00:00",
+    "comments": "Created canonical well WELL-015136 (MAP-TEST-7c6864) from report."
+  },
+  "REV-1329EB99": {
+    "review_id": "REV-1329EB99",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T07:35:31.014666+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-431FD0D9": {
+    "review_id": "REV-431FD0D9",
+    "document_id": "DOC-AF0D2B0B",
+    "reviewer": "Lead Engineer",
+    "action": "APPROVE_ALL_HIGH",
+    "timestamp": "2026-09-27T07:35:57.094665+00:00",
+    "comments": "Batch-approved 3 entities and 1 events (threshold >= 0.85)."
+  },
+  "REV-FCB00DD8": {
+    "review_id": "REV-FCB00DD8",
+    "document_id": "DOC-AF0D2B0B",
+    "reviewer": "Supervising Drilling Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T07:35:57.263940+00:00",
+    "comments": "All technical parameters verified against operational log."
+  },
+  "REV-52165DDE": {
+    "review_id": "REV-52165DDE",
+    "document_id": "DOC-7636B80B",
+    "reviewer": "QA Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T07:35:57.564446+00:00",
+    "comments": "Fails source verification checklist."
+  },
+  "REV-F888CC1A": {
+    "review_id": "REV-F888CC1A",
+    "document_id": "DOC-A5B554FE",
+    "reviewer": "Subsurface Data Manager",
+    "action": "LINK_CANONICAL_WELL",
+    "timestamp": "2026-09-27T07:35:57.909719+00:00",
+    "comments": "Linked to canonical well WELL-000050 (RAJASTHAN-WELL-00050)."
+  },
+  "REV-71A3EC94": {
+    "review_id": "REV-71A3EC94",
+    "document_id": "DOC-91098DD3",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T07:35:58.169409+00:00",
+    "comments": "Created canonical well WELL-015137 (DISCOVERY-93651cd3) from report."
+  },
+  "REV-D43CBE63": {
+    "review_id": "REV-D43CBE63",
+    "document_id": "DOC-391C646B",
+    "reviewer": "Lead Drilling Engineer",
+    "action": "CLASSIFICATION_OVERRIDE",
+    "timestamp": "2026-09-27T07:36:52.186665+00:00",
+    "comments": "Classification overridden to WCR by engineer."
+  },
+  "REV-C5C9319C": {
+    "review_id": "REV-C5C9319C",
+    "document_id": "DOC-BF3D5491",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T07:36:53.415714+00:00",
+    "comments": "Created canonical well WELL-015138 (WILDCAT-47e400) from report."
+  },
+  "REV-D7D20282": {
+    "review_id": "REV-D7D20282",
+    "document_id": "DOC-72618A0E",
+    "reviewer": "Data Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T07:36:54.329374+00:00",
+    "comments": "Data corrupted"
+  },
+  "REV-012C23D1": {
+    "review_id": "REV-012C23D1",
+    "document_id": "DOC-87D3F20E",
+    "reviewer": "Chief Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T07:36:54.575462+00:00",
+    "comments": "Approved for institutional memory"
+  },
+  "REV-B7F08859": {
+    "review_id": "REV-B7F08859",
+    "document_id": "DOC-56B02802",
+    "reviewer": "Lead GIS Engineer",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T07:37:00.384929+00:00",
+    "comments": "Created canonical well WELL-015139 (MAP-TEST-14ee35) from report."
+  },
+  "REV-90752584": {
+    "review_id": "REV-90752584",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T08:27:00.940748+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-1132843E": {
+    "review_id": "REV-1132843E",
+    "document_id": "DOC-EE211584",
+    "reviewer": "Lead Engineer",
+    "action": "APPROVE_ALL_HIGH",
+    "timestamp": "2026-09-27T08:27:25.509023+00:00",
+    "comments": "Batch-approved 3 entities and 1 events (threshold >= 0.85)."
+  },
+  "REV-8C93B26C": {
+    "review_id": "REV-8C93B26C",
+    "document_id": "DOC-EE211584",
+    "reviewer": "Supervising Drilling Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T08:27:25.615897+00:00",
+    "comments": "All technical parameters verified against operational log."
+  },
+  "REV-D42A082C": {
+    "review_id": "REV-D42A082C",
+    "document_id": "DOC-08438133",
+    "reviewer": "QA Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T08:27:25.867613+00:00",
+    "comments": "Fails source verification checklist."
+  },
+  "REV-1583D4B0": {
+    "review_id": "REV-1583D4B0",
+    "document_id": "DOC-68FCCEBB",
+    "reviewer": "Subsurface Data Manager",
+    "action": "LINK_CANONICAL_WELL",
+    "timestamp": "2026-09-27T08:27:26.155219+00:00",
+    "comments": "Linked to canonical well WELL-000050 (RAJASTHAN-WELL-00050)."
+  },
+  "REV-99BE9937": {
+    "review_id": "REV-99BE9937",
+    "document_id": "DOC-9039EEE7",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T08:27:26.450842+00:00",
+    "comments": "Created canonical well WELL-015140 (DISCOVERY-db02d7a9) from report."
+  },
+  "REV-DC353122": {
+    "review_id": "REV-DC353122",
+    "document_id": "DOC-005096AB",
+    "reviewer": "Lead Drilling Engineer",
+    "action": "CLASSIFICATION_OVERRIDE",
+    "timestamp": "2026-09-27T08:28:17.251066+00:00",
+    "comments": "Classification overridden to WCR by engineer."
+  },
+  "REV-E3B68DD2": {
+    "review_id": "REV-E3B68DD2",
+    "document_id": "DOC-C311E22D",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T08:28:18.304481+00:00",
+    "comments": "Created canonical well WELL-015141 (WILDCAT-21e772) from report."
+  },
+  "REV-28DCBBB2": {
+    "review_id": "REV-28DCBBB2",
+    "document_id": "DOC-716100BC",
+    "reviewer": "Data Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T08:28:19.144170+00:00",
+    "comments": "Data corrupted"
+  },
+  "REV-6F87FA5A": {
+    "review_id": "REV-6F87FA5A",
+    "document_id": "DOC-E771A424",
+    "reviewer": "Chief Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T08:28:19.383342+00:00",
+    "comments": "Approved for institutional memory"
+  },
+  "REV-94F50656": {
+    "review_id": "REV-94F50656",
+    "document_id": "DOC-CBE75D39",
+    "reviewer": "Lead GIS Engineer",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T08:28:24.861707+00:00",
+    "comments": "Created canonical well WELL-015142 (MAP-TEST-8a82d5) from report."
+  },
+  "REV-DE4D01AE": {
+    "review_id": "REV-DE4D01AE",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T08:33:33.487380+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-9A5E5246": {
+    "review_id": "REV-9A5E5246",
+    "document_id": "DOC-E7C771C0",
+    "reviewer": "Lead Engineer",
+    "action": "APPROVE_ALL_HIGH",
+    "timestamp": "2026-09-27T08:33:58.917653+00:00",
+    "comments": "Batch-approved 3 entities and 1 events (threshold >= 0.85)."
+  },
+  "REV-922F1AA3": {
+    "review_id": "REV-922F1AA3",
+    "document_id": "DOC-E7C771C0",
+    "reviewer": "Supervising Drilling Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T08:33:59.037149+00:00",
+    "comments": "All technical parameters verified against operational log."
+  },
+  "REV-E84D4901": {
+    "review_id": "REV-E84D4901",
+    "document_id": "DOC-0F2974FD",
+    "reviewer": "QA Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T08:33:59.328235+00:00",
+    "comments": "Fails source verification checklist."
+  },
+  "REV-C7277716": {
+    "review_id": "REV-C7277716",
+    "document_id": "DOC-A9B56CC4",
+    "reviewer": "Subsurface Data Manager",
+    "action": "LINK_CANONICAL_WELL",
+    "timestamp": "2026-09-27T08:33:59.645107+00:00",
+    "comments": "Linked to canonical well WELL-000050 (RAJASTHAN-WELL-00050)."
+  },
+  "REV-54AA1138": {
+    "review_id": "REV-54AA1138",
+    "document_id": "DOC-64CCFA1C",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T08:33:59.921472+00:00",
+    "comments": "Created canonical well WELL-015143 (DISCOVERY-4cc7f008) from report."
+  },
+  "REV-1FBD51F3": {
+    "review_id": "REV-1FBD51F3",
+    "document_id": "DOC-EE01D866",
+    "reviewer": "Lead Drilling Engineer",
+    "action": "CLASSIFICATION_OVERRIDE",
+    "timestamp": "2026-09-27T08:34:52.115329+00:00",
+    "comments": "Classification overridden to WCR by engineer."
+  },
+  "REV-3198AF16": {
+    "review_id": "REV-3198AF16",
+    "document_id": "DOC-D77B6594",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T08:34:53.252101+00:00",
+    "comments": "Created canonical well WELL-015144 (WILDCAT-4bc616) from report."
+  },
+  "REV-3A1067BE": {
+    "review_id": "REV-3A1067BE",
+    "document_id": "DOC-890050CC",
+    "reviewer": "Data Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T08:34:54.146324+00:00",
+    "comments": "Data corrupted"
+  },
+  "REV-A4328DB4": {
+    "review_id": "REV-A4328DB4",
+    "document_id": "DOC-A56E8D3C",
+    "reviewer": "Chief Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T08:34:54.418408+00:00",
+    "comments": "Approved for institutional memory"
+  },
+  "REV-B2EC1C1F": {
+    "review_id": "REV-B2EC1C1F",
+    "document_id": "DOC-290DC99D",
+    "reviewer": "Lead GIS Engineer",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T08:35:05.549079+00:00",
+    "comments": "Created canonical well WELL-015145 (MAP-TEST-00aa19) from report."
+  },
+  "REV-7B6985CE": {
+    "review_id": "REV-7B6985CE",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T11:29:03.757159+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-0EEFBBAC": {
+    "review_id": "REV-0EEFBBAC",
+    "document_id": "DOC-004FFB91",
+    "reviewer": "Lead Engineer",
+    "action": "APPROVE_ALL_HIGH",
+    "timestamp": "2026-09-27T11:30:11.397357+00:00",
+    "comments": "Batch-approved 3 entities and 1 events (threshold >= 0.85)."
+  },
+  "REV-FB259557": {
+    "review_id": "REV-FB259557",
+    "document_id": "DOC-004FFB91",
+    "reviewer": "Supervising Drilling Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T11:30:11.758634+00:00",
+    "comments": "All technical parameters verified against operational log."
+  },
+  "REV-B93E468B": {
+    "review_id": "REV-B93E468B",
+    "document_id": "DOC-4FE2DBF9",
+    "reviewer": "QA Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T11:30:12.297644+00:00",
+    "comments": "Fails source verification checklist."
+  },
+  "REV-19C40BE8": {
+    "review_id": "REV-19C40BE8",
+    "document_id": "DOC-76CFE5E3",
+    "reviewer": "Subsurface Data Manager",
+    "action": "LINK_CANONICAL_WELL",
+    "timestamp": "2026-09-27T11:30:13.113795+00:00",
+    "comments": "Linked to canonical well WELL-000050 (RAJASTHAN-WELL-00050)."
+  },
+  "REV-1143DCCC": {
+    "review_id": "REV-1143DCCC",
+    "document_id": "DOC-F5620C9C",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T11:30:13.848458+00:00",
+    "comments": "Created canonical well WELL-015146 (DISCOVERY-e8c237be) from report."
+  },
+  "REV-09DDE419": {
+    "review_id": "REV-09DDE419",
+    "document_id": "DOC-BE108A28",
+    "reviewer": "Lead Drilling Engineer",
+    "action": "CLASSIFICATION_OVERRIDE",
+    "timestamp": "2026-09-27T11:32:51.498769+00:00",
+    "comments": "Classification overridden to WCR by engineer."
+  },
+  "REV-55AD7E66": {
+    "review_id": "REV-55AD7E66",
+    "document_id": "DOC-572EDC88",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T11:32:54.441921+00:00",
+    "comments": "Created canonical well WELL-015147 (WILDCAT-75a247) from report."
+  },
+  "REV-9ED42F58": {
+    "review_id": "REV-9ED42F58",
+    "document_id": "DOC-CF6BE415",
+    "reviewer": "Data Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T11:32:56.448216+00:00",
+    "comments": "Data corrupted"
+  },
+  "REV-3839FB8F": {
+    "review_id": "REV-3839FB8F",
+    "document_id": "DOC-0753A22F",
+    "reviewer": "Chief Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T11:32:56.936861+00:00",
+    "comments": "Approved for institutional memory"
+  },
+  "REV-F5F2F10D": {
+    "review_id": "REV-F5F2F10D",
+    "document_id": "DOC-24CF8857",
+    "reviewer": "Lead GIS Engineer",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T11:33:12.789365+00:00",
+    "comments": "Created canonical well WELL-015148 (MAP-TEST-1b3551) from report."
+  },
+  "REV-A054CA88": {
+    "review_id": "REV-A054CA88",
+    "document_id": "DOC-572AC7A3",
+    "reviewer": "Operations Superintendent",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T18:09:09.601128+00:00",
+    "comments": "Document and verified technical records formally approved."
+  },
+  "REV-ABB2DAC8": {
+    "review_id": "REV-ABB2DAC8",
+    "document_id": "DOC-07C257B2",
+    "reviewer": "Lead Engineer",
+    "action": "APPROVE_ALL_HIGH",
+    "timestamp": "2026-09-27T18:09:38.285769+00:00",
+    "comments": "Batch-approved 3 entities and 1 events (threshold >= 0.85)."
+  },
+  "REV-710043DD": {
+    "review_id": "REV-710043DD",
+    "document_id": "DOC-07C257B2",
+    "reviewer": "Supervising Drilling Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T18:09:38.422031+00:00",
+    "comments": "All technical parameters verified against operational log."
+  },
+  "REV-25B89FCA": {
+    "review_id": "REV-25B89FCA",
+    "document_id": "DOC-EAD81848",
+    "reviewer": "QA Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T18:09:38.717967+00:00",
+    "comments": "Fails source verification checklist."
+  },
+  "REV-4B4B6292": {
+    "review_id": "REV-4B4B6292",
+    "document_id": "DOC-2DCE8246",
+    "reviewer": "Subsurface Data Manager",
+    "action": "LINK_CANONICAL_WELL",
+    "timestamp": "2026-09-27T18:09:39.068205+00:00",
+    "comments": "Linked to canonical well WELL-000050 (RAJASTHAN-WELL-00050)."
+  },
+  "REV-33EED4ED": {
+    "review_id": "REV-33EED4ED",
+    "document_id": "DOC-FFCE7245",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T18:09:39.403653+00:00",
+    "comments": "Created canonical well WELL-015149 (DISCOVERY-be7a3c17) from report."
+  },
+  "REV-72D3801F": {
+    "review_id": "REV-72D3801F",
+    "document_id": "DOC-7FC16DD0",
+    "reviewer": "Lead Drilling Engineer",
+    "action": "CLASSIFICATION_OVERRIDE",
+    "timestamp": "2026-09-27T18:11:15.884852+00:00",
+    "comments": "Classification overridden to WCR by engineer."
+  },
+  "REV-6FB16DBA": {
+    "review_id": "REV-6FB16DBA",
+    "document_id": "DOC-2E43F17F",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T18:11:17.155549+00:00",
+    "comments": "Created canonical well WELL-015150 (WILDCAT-5996e3) from report."
+  },
+  "REV-CA58A0DB": {
+    "review_id": "REV-CA58A0DB",
+    "document_id": "DOC-A5D8E8A8",
+    "reviewer": "Data Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-27T18:11:18.008954+00:00",
+    "comments": "Data corrupted"
+  },
+  "REV-0F95077A": {
+    "review_id": "REV-0F95077A",
+    "document_id": "DOC-59EB31F4",
+    "reviewer": "Chief Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-27T18:11:18.305785+00:00",
+    "comments": "Approved for institutional memory"
+  },
+  "REV-97407446": {
+    "review_id": "REV-97407446",
+    "document_id": "DOC-447CBD27",
+    "reviewer": "Lead GIS Engineer",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-27T18:11:24.898798+00:00",
+    "comments": "Created canonical well WELL-015151 (MAP-TEST-3ed074) from report."
+  },
+  "REV-6680BC62": {
+    "review_id": "REV-6680BC62",
+    "document_id": "DOC-60ED5FCD",
+    "reviewer": "Lead Drilling Engineer",
+    "action": "CLASSIFICATION_OVERRIDE",
+    "timestamp": "2026-09-28T04:36:43.915938+00:00",
+    "comments": "Classification overridden to WCR by engineer."
+  },
+  "REV-41133605": {
+    "review_id": "REV-41133605",
+    "document_id": "DOC-801015F7",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-28T04:36:50.516810+00:00",
+    "comments": "Created canonical well WELL-015152 (WILDCAT-91e7bc) from report."
+  },
+  "REV-46FA658C": {
+    "review_id": "REV-46FA658C",
+    "document_id": "DOC-6E6D8CCB",
+    "reviewer": "Data Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-28T04:36:51.883541+00:00",
+    "comments": "Data corrupted"
+  },
+  "REV-2643DB9F": {
+    "review_id": "REV-2643DB9F",
+    "document_id": "DOC-501F8475",
+    "reviewer": "Chief Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-28T04:36:52.293615+00:00",
+    "comments": "Approved for institutional memory"
+  },
+  "REV-1C60C077": {
+    "review_id": "REV-1C60C077",
+    "document_id": "DOC-1AE845C2",
+    "reviewer": "Lead GIS Engineer",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-28T04:37:37.674621+00:00",
+    "comments": "Created canonical well WELL-015153 (MAP-TEST-9b7c03) from report."
+  },
+  "REV-DFD3FBB8": {
+    "review_id": "REV-DFD3FBB8",
+    "document_id": "DOC-C10DD6BA",
+    "reviewer": "Lead Drilling Engineer",
+    "action": "CLASSIFICATION_OVERRIDE",
+    "timestamp": "2026-09-28T05:14:07.856247+00:00",
+    "comments": "Classification overridden to WCR by engineer."
+  },
+  "REV-624C777C": {
+    "review_id": "REV-624C777C",
+    "document_id": "DOC-85220456",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-28T05:14:13.191699+00:00",
+    "comments": "Created canonical well WELL-015158 (WILDCAT-9a2750) from report."
+  },
+  "REV-7D5A248D": {
+    "review_id": "REV-7D5A248D",
+    "document_id": "DOC-76F3B199",
+    "reviewer": "Data Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-28T05:14:14.158014+00:00",
+    "comments": "Data corrupted"
+  },
+  "REV-43C48E41": {
+    "review_id": "REV-43C48E41",
+    "document_id": "DOC-400770C9",
+    "reviewer": "Chief Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-28T05:14:14.497051+00:00",
+    "comments": "Approved for institutional memory"
+  },
+  "REV-09CD72FB": {
+    "review_id": "REV-09CD72FB",
+    "document_id": "DOC-4B6B0443",
+    "reviewer": "Lead GIS Engineer",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-28T05:14:35.132938+00:00",
+    "comments": "Created canonical well WELL-015159 (MAP-TEST-5c06c3) from report."
+  },
+  "REV-6F10E2FA": {
+    "review_id": "REV-6F10E2FA",
+    "document_id": "DOC-4527FFA7",
+    "reviewer": "Lead Drilling Engineer",
+    "action": "CLASSIFICATION_OVERRIDE",
+    "timestamp": "2026-09-28T06:13:13.141909+00:00",
+    "comments": "Classification overridden to WCR by engineer."
+  },
+  "REV-4BFB43CB": {
+    "review_id": "REV-4BFB43CB",
+    "document_id": "DOC-ADD362BE",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-28T06:13:18.454856+00:00",
+    "comments": "Created canonical well WELL-015162 (WILDCAT-06acf6) from report."
+  },
+  "REV-4A94BF44": {
+    "review_id": "REV-4A94BF44",
+    "document_id": "DOC-0AA81C5E",
+    "reviewer": "Data Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-28T06:13:19.416878+00:00",
+    "comments": "Data corrupted"
+  },
+  "REV-AB16D08D": {
+    "review_id": "REV-AB16D08D",
+    "document_id": "DOC-31E9CA99",
+    "reviewer": "Chief Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-28T06:13:19.759152+00:00",
+    "comments": "Approved for institutional memory"
+  },
+  "REV-58BB3E6D": {
+    "review_id": "REV-58BB3E6D",
+    "document_id": "DOC-6CF8DF2E",
+    "reviewer": "Lead GIS Engineer",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-28T06:13:32.794289+00:00",
+    "comments": "Created canonical well WELL-015163 (MAP-TEST-599761) from report."
+  },
+  "REV-63ED1597": {
+    "review_id": "REV-63ED1597",
+    "document_id": "DOC-34C99D0E",
+    "reviewer": "Lead Drilling Engineer",
+    "action": "CLASSIFICATION_OVERRIDE",
+    "timestamp": "2026-09-28T06:54:41.833256+00:00",
+    "comments": "Classification overridden to WCR by engineer."
+  },
+  "REV-1088E64A": {
+    "review_id": "REV-1088E64A",
+    "document_id": "DOC-6240EEF2",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-28T06:54:47.182263+00:00",
+    "comments": "Created canonical well WELL-015162 (WILDCAT-b97451) from report."
+  },
+  "REV-8E8E4680": {
+    "review_id": "REV-8E8E4680",
+    "document_id": "DOC-33006CDF",
+    "reviewer": "Data Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-28T06:54:48.156966+00:00",
+    "comments": "Data corrupted"
+  },
+  "REV-C382D9F9": {
+    "review_id": "REV-C382D9F9",
+    "document_id": "DOC-1BF6FCCA",
+    "reviewer": "Chief Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-28T06:54:48.494763+00:00",
+    "comments": "Approved for institutional memory"
+  },
+  "REV-73922C68": {
+    "review_id": "REV-73922C68",
+    "document_id": "DOC-33BD20EB",
+    "reviewer": "Lead GIS Engineer",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-28T06:54:59.590352+00:00",
+    "comments": "Created canonical well WELL-015163 (MAP-TEST-1b9c80) from report."
+  },
+  "REV-D2ABA2D0": {
+    "review_id": "REV-D2ABA2D0",
+    "document_id": "DOC-044C7EA8",
+    "reviewer": "Lead Drilling Engineer",
+    "action": "CLASSIFICATION_OVERRIDE",
+    "timestamp": "2026-09-28T07:02:12.047297+00:00",
+    "comments": "Classification overridden to WCR by engineer."
+  },
+  "REV-6EB2081C": {
+    "review_id": "REV-6EB2081C",
+    "document_id": "DOC-D96D9D7A",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-28T07:02:17.458644+00:00",
+    "comments": "Created canonical well WELL-015162 (WILDCAT-362d87) from report."
+  },
+  "REV-627E490D": {
+    "review_id": "REV-627E490D",
+    "document_id": "DOC-CA2487AF",
+    "reviewer": "Data Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-28T07:02:18.478233+00:00",
+    "comments": "Data corrupted"
+  },
+  "REV-6FA5601A": {
+    "review_id": "REV-6FA5601A",
+    "document_id": "DOC-1AD63B55",
+    "reviewer": "Chief Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-28T07:02:18.845525+00:00",
+    "comments": "Approved for institutional memory"
+  },
+  "REV-23446D11": {
+    "review_id": "REV-23446D11",
+    "document_id": "DOC-04523462",
+    "reviewer": "Lead GIS Engineer",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-28T07:02:31.255283+00:00",
+    "comments": "Created canonical well WELL-015163 (MAP-TEST-2dd22b) from report."
+  },
+  "REV-6E7B1B0E": {
+    "review_id": "REV-6E7B1B0E",
+    "document_id": "DOC-67BC79C0",
+    "reviewer": "Lead Drilling Engineer",
+    "action": "CLASSIFICATION_OVERRIDE",
+    "timestamp": "2026-09-28T08:23:52.018805+00:00",
+    "comments": "Classification overridden to WCR by engineer."
+  },
+  "REV-540A370F": {
+    "review_id": "REV-540A370F",
+    "document_id": "DOC-22CEFFB2",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-28T08:23:57.456899+00:00",
+    "comments": "Created canonical well WELL-015161 (WILDCAT-43b71d) from report."
+  },
+  "REV-19A559D7": {
+    "review_id": "REV-19A559D7",
+    "document_id": "DOC-949E3D36",
+    "reviewer": "Data Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-28T08:23:58.586165+00:00",
+    "comments": "Data corrupted"
+  },
+  "REV-77AA75AB": {
+    "review_id": "REV-77AA75AB",
+    "document_id": "DOC-48CD7AFA",
+    "reviewer": "Chief Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-28T08:23:58.950918+00:00",
+    "comments": "Approved for institutional memory"
+  },
+  "REV-B8D697B5": {
+    "review_id": "REV-B8D697B5",
+    "document_id": "DOC-6FBA3909",
+    "reviewer": "Lead GIS Engineer",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-28T08:24:11.975554+00:00",
+    "comments": "Created canonical well WELL-015162 (MAP-TEST-3c21cf) from report."
+  },
+  "REV-B196D43C": {
+    "review_id": "REV-B196D43C",
+    "document_id": "DOC-21335FD2",
+    "reviewer": "Lead Drilling Engineer",
+    "action": "CLASSIFICATION_OVERRIDE",
+    "timestamp": "2026-09-28T08:33:46.212687+00:00",
+    "comments": "Classification overridden to WCR by engineer."
+  },
+  "REV-18B5F014": {
+    "review_id": "REV-18B5F014",
+    "document_id": "DOC-1D7E439F",
+    "reviewer": "Chief Geologist",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-28T08:33:52.317670+00:00",
+    "comments": "Created canonical well WELL-015162 (WILDCAT-695a8a) from report."
+  },
+  "REV-62D2A8EB": {
+    "review_id": "REV-62D2A8EB",
+    "document_id": "DOC-2DE4C377",
+    "reviewer": "Data Manager",
+    "action": "REJECT",
+    "timestamp": "2026-09-28T08:33:53.725075+00:00",
+    "comments": "Data corrupted"
+  },
+  "REV-2D299632": {
+    "review_id": "REV-2D299632",
+    "document_id": "DOC-81AD7E3D",
+    "reviewer": "Chief Engineer",
+    "action": "APPROVE",
+    "timestamp": "2026-09-28T08:33:54.181690+00:00",
+    "comments": "Approved for institutional memory"
+  },
+  "REV-07551A65": {
+    "review_id": "REV-07551A65",
+    "document_id": "DOC-1F8BC278",
+    "reviewer": "Lead GIS Engineer",
+    "action": "CREATE_CANONICAL_WELL",
+    "timestamp": "2026-09-28T08:34:06.869797+00:00",
+    "comments": "Created canonical well WELL-015163 (MAP-TEST-48065e) from report."
+  }
+}

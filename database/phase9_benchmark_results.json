@@ -1,0 +1,96 @@
+{
+  "results": [
+    {
+      "name": "Map Marker Loading",
+      "method": "GET",
+      "path": "/api/wells/map-markers?include_new=true",
+      "status": 200,
+      "duration_ms": 983.91,
+      "payload_kb": 3320.52,
+      "error": null
+    },
+    {
+      "name": "Well Search & Pagination",
+      "method": "GET",
+      "path": "/api/wells?offset=0&limit=50",
+      "status": 200,
+      "duration_ms": 92.31,
+      "payload_kb": 17.3,
+      "error": null
+    },
+    {
+      "name": "Spatial Nearby Wells (25km)",
+      "method": "GET",
+      "path": "/api/wells/WELL-000050/nearby?radius_km=25",
+      "status": 200,
+      "duration_ms": 68.47,
+      "payload_kb": 7.62,
+      "error": null
+    },
+    {
+      "name": "Well Intelligence Cockpit",
+      "method": "GET",
+      "path": "/api/wells/WELL-000050/offset-intelligence",
+      "status": 200,
+      "duration_ms": 6796.35,
+      "payload_kb": 12.43,
+      "error": null
+    },
+    {
+      "name": "Historical Drilling Events",
+      "method": "GET",
+      "path": "/api/wells/WELL-000050/events",
+      "status": 200,
+      "duration_ms": 195.23,
+      "payload_kb": 19.99,
+      "error": null
+    },
+    {
+      "name": "ML Drilling Risk Prediction",
+      "method": "POST",
+      "path": "/api/prediction/risk",
+      "status": 200,
+      "duration_ms": 4163.04,
+      "payload_kb": 3.67,
+      "error": null
+    },
+    {
+      "name": "Document Registry Search",
+      "method": "GET",
+      "path": "/api/documents?limit=20",
+      "status": 200,
+      "duration_ms": 80.55,
+      "payload_kb": 14.92,
+      "error": null
+    },
+    {
+      "name": "Grounded Copilot / RAG Query",
+      "method": "POST",
+      "path": "/api/intelligence/query",
+      "status": 200,
+      "duration_ms": 95.08,
+      "payload_kb": 4.64,
+      "error": null
+    },
+    {
+      "name": "Dashboard Aggregates",
+      "method": "GET",
+      "path": "/api/dashboard/stats",
+      "status": 200,
+      "duration_ms": 576.45,
+      "payload_kb": 5.04,
+      "error": null
+    },
+    {
+      "name": "Live Telemetry Endpoint",
+      "method": "GET",
+      "path": "/api/live/WELL-000050/telemetry/latest",
+      "status": 200,
+      "duration_ms": 81.55,
+      "payload_kb": 2.13,
+      "error": null
+    }
+  ],
+  "avg_latency_ms": 1313.29,
+  "max_latency_ms": 6796.35
+}

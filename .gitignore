@@ -1,0 +1,102 @@
+# ============================================================
+# NWIS — Comprehensive Git Ignore Configuration
+# ============================================================
+
+# Environment & Secrets (NEVER COMMIT REAL CREDENTIALS)
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.eggs/
+build/
+dist/
+downloads/
+eggs/
+.installed.cfg
+*.egg
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+frontend/dist/
+frontend/build/
+.vite/
+frontend/.vite/
+
+# ML / Training Logs & Caches
+catboost_info/
+.cache/
+huggingface/
+sentence_transformers/
+
+# Database dumps & local database files
+*.db
+*.sqlite
+*.sqlite3
+database/backups/*.sql
+database/backups/*.sql.sha256
+
+# Large Production Datasets (> 100MB exceeds GitHub limits, kept locally)
+data/raw/nwis_mud_logging_15108_wells.csv
+
+# Runtime uploads & transient document storage
+uploads/
+**/uploads/
+runtime/
+cache/
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.iml
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+
+# Test artifacts
+playwright-report/
+test-results/
+coverage/

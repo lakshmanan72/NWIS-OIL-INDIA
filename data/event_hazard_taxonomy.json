@@ -1,0 +1,103 @@
+{
+  "total_historical_events_in_source": 31444,
+  "source_provenance": "nwis_historical_drilling_events_15108.csv",
+  "mapped_hazards_count": 5,
+  "taxonomy_mappings": [
+    {
+      "raw_event_type": "Mud Loss",
+      "hazard_category": "mud_loss",
+      "event_count": 3584,
+      "reason_for_mapping": "Partial loss of drilling fluid returns into formation permeability or minor fractures.",
+      "confidence": "High",
+      "domain_assumption": "Direct operational match. Standard drilling loss incident."
+    },
+    {
+      "raw_event_type": "Lost Circulation",
+      "hazard_category": "mud_loss",
+      "event_count": 2547,
+      "reason_for_mapping": "Severe or total loss of drilling fluid circulation to surface.",
+      "confidence": "High",
+      "domain_assumption": "Direct operational match. Lost circulation is the severe manifestation of mud loss."
+    },
+    {
+      "raw_event_type": "Stuck Pipe",
+      "hazard_category": "stuck_pipe",
+      "event_count": 3010,
+      "reason_for_mapping": "Mechanical drillstring immobilization during drilling or tripping operations.",
+      "confidence": "High",
+      "domain_assumption": "Direct operational match. Canonical stuck pipe incident."
+    },
+    {
+      "raw_event_type": "Differential Sticking",
+      "hazard_category": "stuck_pipe",
+      "event_count": 1594,
+      "reason_for_mapping": "Immobilization of the drillstring caused by differential overbalance pressure against permeable cake.",
+      "confidence": "High",
+      "domain_assumption": "Mechanistic subclass of pipe sticking caused by hydro-static pressure overbalance."
+    },
+    {
+      "raw_event_type": "Pack-Off",
+      "hazard_category": "stuck_pipe",
+      "event_count": 1548,
+      "reason_for_mapping": "Annular bridging and accumulation of drilled cuttings around drillstring and BHA.",
+      "confidence": "High",
+      "domain_assumption": "Direct precursor to mechanical stuck pipe. Cuttings pack-off causes complete string stalling."
+    },
+    {
+      "raw_event_type": "Kick",
+      "hazard_category": "kick",
+      "event_count": 2188,
+      "reason_for_mapping": "Uncontrolled influx of formation fluids (gas, oil, water) into the wellbore.",
+      "confidence": "High",
+      "domain_assumption": "Direct operational match. Well control critical event."
+    },
+    {
+      "raw_event_type": "Formation Pressure Change",
+      "hazard_category": "overpressure",
+      "event_count": 2465,
+      "reason_for_mapping": "Transitional pore-pressure shifts requiring mud density adjustment.",
+      "confidence": "Medium-High (with documented limitation)",
+      "domain_assumption": "Domain assumption: Historical field responses in NWIS indicate corrective mud weight increases in response to elevated pressure regimes. Limitation: In general geomechanics, pressure changes can also include subnormal depleted zones; mapping specifically to overpressure risk represents an advisory proxy."
+    },
+    {
+      "raw_event_type": "Torque and Drag",
+      "hazard_category": "torque_spike",
+      "event_count": 2195,
+      "reason_for_mapping": "Excessive frictional drag and rotational torque excursions on the rotary drive.",
+      "confidence": "Medium (with documented limitation)",
+      "domain_assumption": "Domain assumption: Elevated torque and drag in historical logs corresponds to mechanical torsional resistance spikes. Limitation: Torque and drag includes steady-state drag/tortuosity in addition to acute dynamic torque spikes; mapping represents rotational mechanical risk."
+    }
+  ],
+  "unmapped_event_types": [
+    {
+      "raw_event_type": "Wellbore Instability",
+      "event_count": 2895,
+      "rationale": "Broad geomechanical condition (breakout, collapse) spanning multiple operational mechanisms; excluded from narrow 5-hazard classification."
+    },
+    {
+      "raw_event_type": "Hole Cleaning",
+      "event_count": 2853,
+      "rationale": "Operational maintenance and hydraulics management process rather than a discrete subsurface hazard."
+    },
+    {
+      "raw_event_type": "Equipment Failure",
+      "event_count": 2177,
+      "rationale": "Mechanical surface/rig tool defect unrelated to subsurface formation-drilling interactions."
+    },
+    {
+      "raw_event_type": "Casing Issue",
+      "event_count": 1868,
+      "rationale": "Structural casing seat or integrity issue occurring outside active bit-formation interval."
+    },
+    {
+      "raw_event_type": "Shale Swelling",
+      "event_count": 1535,
+      "rationale": "Chemical hydration mechanism; indirectly reflected in wellbore instability and tight hole rather than distinct hazard."
+    },
+    {
+      "raw_event_type": "No Significant Event",
+      "event_count": 985,
+      "rationale": "Routine drilling operations baseline with zero non-productive time."
+    }
+  ]
+}

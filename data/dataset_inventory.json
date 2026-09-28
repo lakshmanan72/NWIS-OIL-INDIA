@@ -1,0 +1,750 @@
+{
+  "nwis_daily_drilling_parameters_15108.csv": {
+    "dataset_name": "nwis_daily_drilling_parameters_15108.csv",
+    "file_size_bytes": 2078070,
+    "file_size_mb": 1.98,
+    "primary_classification": "transactional",
+    "secondary_classifications": [
+      "operational telemetry"
+    ],
+    "description": "Time-series daily drilling log recording depth MD/TVD, ROP, WOB, RPM, torque, pump pressure, and mud properties.",
+    "row_count": 16939,
+    "column_count": 17,
+    "column_names": [
+      "drilling_record_id",
+      "well_id",
+      "record_date",
+      "depth_md",
+      "depth_tvd",
+      "rop_m_per_hr",
+      "wob_klbf",
+      "rpm",
+      "torque_knm",
+      "flow_rate_lpm",
+      "pump_pressure_psi",
+      "standpipe_pressure_psi",
+      "mud_weight_ppg",
+      "mud_viscosity_cp",
+      "mud_loss_lph",
+      "ecd_ppg",
+      "hook_load_klbf"
+    ],
+    "data_types": {
+      "drilling_record_id": "str",
+      "well_id": "str",
+      "record_date": "str",
+      "depth_md": "float64",
+      "depth_tvd": "float64",
+      "rop_m_per_hr": "float64",
+      "wob_klbf": "float64",
+      "rpm": "float64",
+      "torque_knm": "float64",
+      "flow_rate_lpm": "float64",
+      "pump_pressure_psi": "float64",
+      "standpipe_pressure_psi": "float64",
+      "mud_weight_ppg": "float64",
+      "mud_viscosity_cp": "float64",
+      "mud_loss_lph": "float64",
+      "ecd_ppg": "float64",
+      "hook_load_klbf": "float64"
+    },
+    "well_id_column": "well_id",
+    "well_id_columns_list": [
+      "well_id"
+    ],
+    "primary_key_candidates": [
+      "drilling_record_id"
+    ],
+    "composite_primary_key_candidates": [
+      [
+        "well_id",
+        "record_date"
+      ],
+      [
+        "well_id",
+        "depth_md"
+      ]
+    ]
+  },
+  "nwis_document_metadata_15108.csv": {
+    "dataset_name": "nwis_document_metadata_15108.csv",
+    "file_size_bytes": 2908140,
+    "file_size_mb": 2.77,
+    "primary_classification": "document",
+    "secondary_classifications": [
+      "metadata catalog"
+    ],
+    "description": "Document index cataloging drilling reports, completion logs, geological studies, OCR status, and file paths.",
+    "row_count": 18419,
+    "column_count": 11,
+    "column_names": [
+      "document_id",
+      "well_id",
+      "document_type",
+      "document_title",
+      "document_date",
+      "source_file",
+      "page_count",
+      "file_path",
+      "language",
+      "ocr_status",
+      "extraction_status"
+    ],
+    "data_types": {
+      "document_id": "str",
+      "well_id": "str",
+      "document_type": "str",
+      "document_title": "str",
+      "document_date": "str",
+      "source_file": "str",
+      "page_count": "int64",
+      "file_path": "str",
+      "language": "str",
+      "ocr_status": "str",
+      "extraction_status": "str"
+    },
+    "well_id_column": "well_id",
+    "well_id_columns_list": [
+      "well_id"
+    ],
+    "primary_key_candidates": [
+      "document_id",
+      "source_file",
+      "file_path"
+    ],
+    "composite_primary_key_candidates": []
+  },
+  "nwis_formation_lithology_15108.csv": {
+    "dataset_name": "nwis_formation_lithology_15108.csv",
+    "file_size_bytes": 14472879,
+    "file_size_mb": 13.8,
+    "primary_classification": "geological",
+    "secondary_classifications": [
+      "stratigraphy"
+    ],
+    "description": "Detailed formation interval log specifying lithology, rock types, depth intervals (from/to MD), and formation temperatures.",
+    "row_count": 68142,
+    "column_count": 13,
+    "column_names": [
+      "formation_id",
+      "well_id",
+      "depth_from_md",
+      "depth_to_md",
+      "formation_name",
+      "lithology",
+      "rock_type",
+      "geological_age",
+      "porosity_percent",
+      "permeability_md",
+      "formation_pressure_psi",
+      "formation_temperature_c",
+      "formation_description"
+    ],
+    "data_types": {
+      "formation_id": "str",
+      "well_id": "str",
+      "depth_from_md": "int64",
+      "depth_to_md": "int64",
+      "formation_name": "str",
+      "lithology": "str",
+      "rock_type": "str",
+      "geological_age": "str",
+      "porosity_percent": "float64",
+      "permeability_md": "float64",
+      "formation_pressure_psi": "float64",
+      "formation_temperature_c": "float64",
+      "formation_description": "str"
+    },
+    "well_id_column": "well_id",
+    "well_id_columns_list": [
+      "well_id"
+    ],
+    "primary_key_candidates": [
+      "formation_id"
+    ],
+    "composite_primary_key_candidates": [
+      [
+        "well_id",
+        "depth_from_md"
+      ]
+    ]
+  },
+  "nwis_historical_drilling_events_15108.csv": {
+    "dataset_name": "nwis_historical_drilling_events_15108.csv",
+    "file_size_bytes": 9802368,
+    "file_size_mb": 9.35,
+    "primary_classification": "historical",
+    "secondary_classifications": [
+      "incident log"
+    ],
+    "description": "Historical drilling incidents, kicks, losses, stuck pipe events, severity ratings, NPT hours, actions taken, and report references.",
+    "row_count": 31444,
+    "column_count": 15,
+    "column_names": [
+      "event_id",
+      "well_id",
+      "report_id",
+      "report_type",
+      "report_date",
+      "depth_md",
+      "formation",
+      "event_type",
+      "severity",
+      "description",
+      "action_taken",
+      "outcome",
+      "npt_hours",
+      "page_number",
+      "source_document"
+    ],
+    "data_types": {
+      "event_id": "str",
+      "well_id": "str",
+      "report_id": "str",
+      "report_type": "str",
+      "report_date": "str",
+      "depth_md": "int64",
+      "formation": "str",
+      "event_type": "str",
+      "severity": "str",
+      "description": "str",
+      "action_taken": "str",
+      "outcome": "str",
+      "npt_hours": "float64",
+      "page_number": "int64",
+      "source_document": "str"
+    },
+    "well_id_column": "well_id",
+    "well_id_columns_list": [
+      "well_id"
+    ],
+    "primary_key_candidates": [
+      "event_id",
+      "report_id"
+    ],
+    "composite_primary_key_candidates": []
+  },
+  "nwis_mud_logging_15108_wells.csv": {
+    "dataset_name": "nwis_mud_logging_15108_wells.csv",
+    "file_size_bytes": 133035956,
+    "file_size_mb": 126.87,
+    "primary_classification": "transactional",
+    "secondary_classifications": [
+      "sensor telemetry",
+      "mud logging"
+    ],
+    "description": "High-frequency surface sensor telemetry tracking gas readings, cuttings analysis, pit volumes, flow rates, and drilling hazard indicators.",
+    "row_count": 453240,
+    "column_count": 43,
+    "column_names": [
+      "mud_log_id",
+      "well_id",
+      "well_name",
+      "operator",
+      "field",
+      "basin",
+      "block",
+      "depth_m",
+      "timestamp",
+      "mud_type",
+      "mud_weight_ppg",
+      "mud_viscosity_cp",
+      "mud_temperature_c",
+      "mud_pH",
+      "mud_flow_rate_lpm",
+      "standpipe_pressure_psi",
+      "pit_volume_bbl",
+      "pit_gain_loss_bbl",
+      "flow_out_pct",
+      "gas_total_units",
+      "methane_units",
+      "ethane_units",
+      "propane_units",
+      "connection_gas_units",
+      "trip_gas_units",
+      "chloride_ppm",
+      "calcium_ppm",
+      "mud_cake_mm",
+      "filtration_ml",
+      "cuttings_rate_kg_hr",
+      "cuttings_size_mm",
+      "cuttings_shape",
+      "cuttings_color",
+      "lithology_observed",
+      "oil_show",
+      "gas_show",
+      "fluorescence",
+      "formation_pressure_estimate_psi",
+      "kick_indicator",
+      "loss_indicator",
+      "overpressure_indicator",
+      "mud_loss_severity",
+      "drilling_event"
+    ],
+    "data_types": {
+      "mud_log_id": "str",
+      "well_id": "str",
+      "well_name": "str",
+      "operator": "str",
+      "field": "str",
+      "basin": "str",
+      "block": "str",
+      "depth_m": "float64",
+      "timestamp": "str",
+      "mud_type": "str",
+      "mud_weight_ppg": "float64",
+      "mud_viscosity_cp": "float64",
+      "mud_temperature_c": "float64",
+      "mud_pH": "float64",
+      "mud_flow_rate_lpm": "int64",
+      "standpipe_pressure_psi": "int64",
+      "pit_volume_bbl": "float64",
+      "pit_gain_loss_bbl": "float64",
+      "flow_out_pct": "float64",
+      "gas_total_units": "float64",
+      "methane_units": "float64",
+      "ethane_units": "float64",
+      "propane_units": "float64",
+      "connection_gas_units": "float64",
+      "trip_gas_units": "float64",
+      "chloride_ppm": "int64",
+      "calcium_ppm": "int64",
+      "mud_cake_mm": "float64",
+      "filtration_ml": "float64",
+      "cuttings_rate_kg_hr": "float64",
+      "cuttings_size_mm": "float64",
+      "cuttings_shape": "str",
+      "cuttings_color": "str",
+      "lithology_observed": "str",
+      "oil_show": "str",
+      "gas_show": "str",
+      "fluorescence": "str",
+      "formation_pressure_estimate_psi": "int64",
+      "kick_indicator": "int64",
+      "loss_indicator": "int64",
+      "overpressure_indicator": "int64",
+      "mud_loss_severity": "str",
+      "drilling_event": "str"
+    },
+    "well_id_column": "well_id",
+    "well_id_columns_list": [
+      "well_id"
+    ],
+    "primary_key_candidates": [
+      "mud_log_id"
+    ],
+    "composite_primary_key_candidates": [
+      [
+        "well_id",
+        "depth_m"
+      ]
+    ]
+  },
+  "nwis_risk_recommendations.csv": {
+    "dataset_name": "nwis_risk_recommendations.csv",
+    "file_size_bytes": 4552467,
+    "file_size_mb": 4.34,
+    "primary_classification": "risk",
+    "secondary_classifications": [
+      "derived data",
+      "predictive analytics"
+    ],
+    "description": "Predictive risk assessments, hazard event forecasting, risk scores, confidence levels, and offset well recommendations.",
+    "row_count": 18499,
+    "column_count": 12,
+    "column_names": [
+      "prediction_id",
+      "well_id",
+      "depth_md",
+      "formation",
+      "predicted_event",
+      "risk_score",
+      "risk_level",
+      "similar_historical_wells",
+      "recommended_action",
+      "supporting_event_id",
+      "confidence",
+      "prediction_rank"
+    ],
+    "data_types": {
+      "prediction_id": "str",
+      "well_id": "str",
+      "depth_md": "float64",
+      "formation": "str",
+      "predicted_event": "str",
+      "risk_score": "float64",
+      "risk_level": "str",
+      "similar_historical_wells": "str",
+      "recommended_action": "str",
+      "supporting_event_id": "str",
+      "confidence": "float64",
+      "prediction_rank": "int64"
+    },
+    "well_id_column": "well_id",
+    "well_id_columns_list": [
+      "well_id"
+    ],
+    "primary_key_candidates": [
+      "prediction_id"
+    ],
+    "composite_primary_key_candidates": []
+  },
+  "nwis_spatial_well_relationships_15108.csv": {
+    "dataset_name": "nwis_spatial_well_relationships_15108.csv",
+    "file_size_bytes": 2353877,
+    "file_size_mb": 2.24,
+    "primary_classification": "spatial",
+    "secondary_classifications": [
+      "derived data",
+      "graph topology"
+    ],
+    "description": "Pairwise spatial relationships and distance graph between wells with proximity classifications and geological context alignment.",
+    "row_count": 40719,
+    "column_count": 8,
+    "column_names": [
+      "relationship_id",
+      "source_well_id",
+      "nearby_well_id",
+      "distance_km",
+      "same_field",
+      "same_block",
+      "same_basin",
+      "proximity_class"
+    ],
+    "data_types": {
+      "relationship_id": "str",
+      "source_well_id": "str",
+      "nearby_well_id": "str",
+      "distance_km": "float64",
+      "same_field": "int64",
+      "same_block": "int64",
+      "same_basin": "int64",
+      "proximity_class": "str"
+    },
+    "well_id_column": "source_well_id (primary source), nearby_well_id (target offset)",
+    "well_id_columns_list": [
+      "source_well_id",
+      "nearby_well_id"
+    ],
+    "primary_key_candidates": [
+      "relationship_id"
+    ],
+    "composite_primary_key_candidates": [
+      [
+        "source_well_id",
+        "nearby_well_id"
+      ]
+    ]
+  },
+  "nwis_well_completion_wcr_15108.csv": {
+    "dataset_name": "nwis_well_completion_wcr_15108.csv",
+    "file_size_bytes": 11316099,
+    "file_size_mb": 10.79,
+    "primary_classification": "transactional",
+    "secondary_classifications": [
+      "engineering master",
+      "completion"
+    ],
+    "description": "Comprehensive Well Completion Report (WCR) technical handover containing reservoir properties, perforations, casing, and initial production test rates.",
+    "row_count": 15108,
+    "column_count": 54,
+    "column_names": [
+      "wcr_id",
+      "well_id",
+      "well_name",
+      "operator",
+      "field",
+      "basin",
+      "block",
+      "report_date",
+      "completion_date",
+      "total_depth_m",
+      "measured_depth_m",
+      "true_vertical_depth_m",
+      "well_type",
+      "trajectory_type",
+      "completion_type",
+      "reservoir_formation",
+      "reservoir_top_depth_m",
+      "reservoir_bottom_depth_m",
+      "reservoir_temperature_c",
+      "reservoir_pressure_psi",
+      "porosity_pct",
+      "permeability_md",
+      "water_saturation_pct",
+      "oil_saturation_pct",
+      "gas_saturation_pct",
+      "net_pay_m",
+      "gross_pay_m",
+      "mud_type",
+      "completion_fluid",
+      "casing_size_in",
+      "production_tubing_size_in",
+      "cement_top_depth_m",
+      "cement_bottom_depth_m",
+      "perforation_top_depth_m",
+      "perforation_bottom_depth_m",
+      "perforation_interval_m",
+      "completion_pressure_psi",
+      "initial_oil_rate_bopd",
+      "initial_gas_rate_mscfd",
+      "initial_water_rate_bwpd",
+      "production_test_duration_hr",
+      "well_test_pressure_psi",
+      "well_test_temperature_c",
+      "formation_test_result",
+      "completion_status",
+      "completion_method",
+      "artificial_lift",
+      "wellhead_pressure_psi",
+      "initial_production_status",
+      "completion_problems",
+      "workover_required",
+      "workover_type",
+      "final_well_status",
+      "wcr_summary"
+    ],
+    "data_types": {
+      "wcr_id": "str",
+      "well_id": "str",
+      "well_name": "str",
+      "operator": "str",
+      "field": "str",
+      "basin": "str",
+      "block": "str",
+      "report_date": "str",
+      "completion_date": "str",
+      "total_depth_m": "int64",
+      "measured_depth_m": "int64",
+      "true_vertical_depth_m": "int64",
+      "well_type": "str",
+      "trajectory_type": "str",
+      "completion_type": "str",
+      "reservoir_formation": "str",
+      "reservoir_top_depth_m": "float64",
+      "reservoir_bottom_depth_m": "float64",
+      "reservoir_temperature_c": "float64",
+      "reservoir_pressure_psi": "int64",
+      "porosity_pct": "float64",
+      "permeability_md": "float64",
+      "water_saturation_pct": "float64",
+      "oil_saturation_pct": "float64",
+      "gas_saturation_pct": "float64",
+      "net_pay_m": "float64",
+      "gross_pay_m": "float64",
+      "mud_type": "str",
+      "completion_fluid": "str",
+      "casing_size_in": "float64",
+      "production_tubing_size_in": "float64",
+      "cement_top_depth_m": "float64",
+      "cement_bottom_depth_m": "float64",
+      "perforation_top_depth_m": "float64",
+      "perforation_bottom_depth_m": "float64",
+      "perforation_interval_m": "float64",
+      "completion_pressure_psi": "int64",
+      "initial_oil_rate_bopd": "int64",
+      "initial_gas_rate_mscfd": "int64",
+      "initial_water_rate_bwpd": "int64",
+      "production_test_duration_hr": "float64",
+      "well_test_pressure_psi": "int64",
+      "well_test_temperature_c": "float64",
+      "formation_test_result": "str",
+      "completion_status": "str",
+      "completion_method": "str",
+      "artificial_lift": "str",
+      "wellhead_pressure_psi": "int64",
+      "initial_production_status": "str",
+      "completion_problems": "str",
+      "workover_required": "str",
+      "workover_type": "str",
+      "final_well_status": "str",
+      "wcr_summary": "str"
+    },
+    "well_id_column": "well_id",
+    "well_id_columns_list": [
+      "well_id"
+    ],
+    "primary_key_candidates": [
+      "wcr_id",
+      "well_id",
+      "well_name",
+      "wcr_summary"
+    ],
+    "composite_primary_key_candidates": []
+  },
+  "nwis_well_geology_15108.csv": {
+    "dataset_name": "nwis_well_geology_15108.csv",
+    "file_size_bytes": 11527615,
+    "file_size_mb": 10.99,
+    "primary_classification": "geological",
+    "secondary_classifications": [
+      "interval data"
+    ],
+    "description": "Interval-based stratigraphic and reservoir property log (porosity, permeability, pore pressure, fracture pressure, age).",
+    "row_count": 67794,
+    "column_count": 19,
+    "column_names": [
+      "geology_id",
+      "well_id",
+      "well_name",
+      "basin",
+      "field",
+      "block",
+      "interval_no",
+      "top_depth_m",
+      "bottom_depth_m",
+      "formation",
+      "lithology",
+      "porosity_pct",
+      "permeability_md",
+      "pore_pressure_psi",
+      "fracture_pressure_psi",
+      "temperature_c",
+      "geological_age",
+      "hydrocarbon_show",
+      "reservoir_quality"
+    ],
+    "data_types": {
+      "geology_id": "str",
+      "well_id": "str",
+      "well_name": "str",
+      "basin": "str",
+      "field": "str",
+      "block": "str",
+      "interval_no": "int64",
+      "top_depth_m": "float64",
+      "bottom_depth_m": "float64",
+      "formation": "str",
+      "lithology": "str",
+      "porosity_pct": "float64",
+      "permeability_md": "float64",
+      "pore_pressure_psi": "float64",
+      "fracture_pressure_psi": "float64",
+      "temperature_c": "float64",
+      "geological_age": "str",
+      "hydrocarbon_show": "str",
+      "reservoir_quality": "str"
+    },
+    "well_id_column": "well_id",
+    "well_id_columns_list": [
+      "well_id"
+    ],
+    "primary_key_candidates": [
+      "geology_id"
+    ],
+    "composite_primary_key_candidates": [
+      [
+        "well_id",
+        "interval_no"
+      ]
+    ]
+  },
+  "nwis_well_locations_15108_new.csv": {
+    "dataset_name": "nwis_well_locations_15108_new.csv",
+    "file_size_bytes": 2341916,
+    "file_size_mb": 2.23,
+    "primary_classification": "master",
+    "secondary_classifications": [
+      "spatial"
+    ],
+    "description": "Primary well master registry with canonical well_id, geospatial coordinates, spud/completion dates, basin, block, and status.",
+    "row_count": 15108,
+    "column_count": 14,
+    "column_names": [
+      "well_id",
+      "well_name",
+      "operator",
+      "field",
+      "basin",
+      "block",
+      "latitude",
+      "longitude",
+      "spud_date",
+      "completion_date",
+      "total_depth",
+      "well_type",
+      "well_status",
+      "trajectory_type"
+    ],
+    "data_types": {
+      "well_id": "str",
+      "well_name": "str",
+      "operator": "str",
+      "field": "str",
+      "basin": "str",
+      "block": "str",
+      "latitude": "float64",
+      "longitude": "float64",
+      "spud_date": "str",
+      "completion_date": "str",
+      "total_depth": "int64",
+      "well_type": "str",
+      "well_status": "str",
+      "trajectory_type": "str"
+    },
+    "well_id_column": "well_id",
+    "well_id_columns_list": [
+      "well_id"
+    ],
+    "primary_key_candidates": [
+      "well_id",
+      "well_name"
+    ],
+    "composite_primary_key_candidates": []
+  },
+  "nwis_wells_columns.csv": {
+    "dataset_name": "nwis_wells_columns.csv",
+    "file_size_bytes": 1725440,
+    "file_size_mb": 1.65,
+    "primary_classification": "master",
+    "secondary_classifications": [
+      "spatial",
+      "legacy"
+    ],
+    "description": "Original GIS baseline layer containing 15,108 public well points with FID, GID, ONGC well names, and spatial bounding boxes; currently drives the live map.",
+    "row_count": 15108,
+    "column_count": 10,
+    "column_names": [
+      "id",
+      "gid",
+      "well_name",
+      "operator",
+      "longitude",
+      "latitude",
+      "xmin",
+      "ymin",
+      "xmax",
+      "ymax"
+    ],
+    "data_types": {
+      "id": "str",
+      "gid": "int64",
+      "well_name": "str",
+      "operator": "str",
+      "longitude": "float64",
+      "latitude": "float64",
+      "xmin": "float64",
+      "ymin": "float64",
+      "xmax": "float64",
+      "ymax": "float64"
+    },
+    "well_id_column": "id (FID string), gid (numeric identifier), well_name (well code)",
+    "well_id_columns_list": [
+      "id",
+      "gid",
+      "well_name"
+    ],
+    "primary_key_candidates": [
+      "id",
+      "gid"
+    ],
+    "composite_primary_key_candidates": []
+  },
+  "_summary": {
+    "total_datasets": 11,
+    "total_records": 760520,
+    "verification_status": "VERIFIED_ACCURATE",
+    "verified_direct_sum": 760520,
+    "prior_narrative_discrepancy_note": "Corrected textual arithmetic typo (697,063 -> 760,520). All 11 CSV files sum exactly to 760,520 rows."
+  }
+}

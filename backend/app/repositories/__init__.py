@@ -1,0 +1,61 @@
+from .interfaces import (
+    IWellRepository,
+    ISpatialRepository,
+    IGeologyRepository,
+    IFormationRepository,
+    IDrillingRepository,
+    IMudLoggingRepository,
+    IEventRepository,
+    ICompletionRepository,
+    IRiskRepository,
+    ITelemetryRepository,
+    IAlertRepository,
+    IAuditRepository,
+)
+from .factory import (
+    get_well_repository,
+    get_spatial_repository,
+    get_geology_repository,
+    get_formation_repository,
+    get_drilling_repository,
+    get_mud_logging_repository,
+    get_event_repository,
+    get_completion_repository,
+    get_risk_repository,
+    get_telemetry_repository,
+    get_alert_repository,
+    get_audit_repository,
+)
+from .csv_repository import CsvWellRepository
+
+# Default well_repository instance for backward compatibility
+well_repository = get_well_repository()
+
+__all__ = [
+    "IWellRepository",
+    "ISpatialRepository",
+    "IGeologyRepository",
+    "IFormationRepository",
+    "IDrillingRepository",
+    "IMudLoggingRepository",
+    "IEventRepository",
+    "ICompletionRepository",
+    "IRiskRepository",
+    "ITelemetryRepository",
+    "IAlertRepository",
+    "IAuditRepository",
+    "CsvWellRepository",
+    "well_repository",
+    "get_well_repository",
+    "get_spatial_repository",
+    "get_geology_repository",
+    "get_formation_repository",
+    "get_drilling_repository",
+    "get_mud_logging_repository",
+    "get_event_repository",
+    "get_completion_repository",
+    "get_risk_repository",
+    "get_telemetry_repository",
+    "get_alert_repository",
+    "get_audit_repository",
+]
